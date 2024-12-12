@@ -1,0 +1,128 @@
+
+       /* .br-brands-page {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f8f8;
+        padding: 4rem 2rem;
+        color: #333;
+      }
+      
+      .br-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        text-align: center;
+      }
+      
+      .br-page-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+        margin-bottom: 3rem;
+      }
+      
+      .br-brand-section {
+        background-color: #fff;
+        padding: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .br-brand-title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #a36e29;
+        margin-bottom: 1.5rem;
+      }
+      
+      .br-brand-description {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+      
+      .br-brand-details {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      
+      .br-detail-box {
+        background-color: #ecf0f1;
+        border-radius: 10px;
+        padding: 2rem;
+        width: 45%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        text-align: left;
+      }
+      
+      .br-detail-box h4 {
+        font-size: 1.3rem;
+        color: #2980b9;
+        margin-bottom: 1rem;
+      }
+      
+      .br-detail-box p,
+      .br-detail-box ul {
+        font-size: 1rem;
+        color: #7f8c8d;
+        line-height: 1.5;
+      }
+      
+      .br-detail-box ul {
+        padding-left: 1.5rem;
+      }
+      
+      .br-detail-icon {
+        font-size: 2rem;
+        color: #2980b9;
+        margin-right: 1rem;
+      }
+
+
+      .strongoffline{
+        font-style: italic;
+        font-size: 30px;
+        color: #a36e29;
+      }
+      
+      @media (max-width: 768px) {
+        .br-page-title {
+          font-size: 2rem;
+        }
+      
+        .br-brand-title {
+          font-size: 1.8rem;
+        }
+      
+        .br-brand-description {
+          font-size: 1rem;
+        }
+      
+        .br-brand-details {
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+      
+        .br-detail-box {
+          width: 100%;
+        }
+      }
+      
+      @media (max-width: 1024px) {
+        .br-page-title {
+          font-size: 2.3rem;
+        }
+      
+        .br-brand-details {
+          flex-direction: row;
+          gap: 1.5rem;
+        }
+      
+        .br-detail-box {
+          width: 48%;
+        }
+      }
+       */

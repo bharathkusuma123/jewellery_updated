@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #1b1b1b; */
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.benefits-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Main Section */
+.main-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-section h1 {
+  font-size: 36px;
+  color: #a36e29;
+  margin-bottom: 10px;
+}
+
+.main-section h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.main-section p {
+  text-align: justify;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.visual-placeholder {
+  /* background: #333; */
+  color: #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Foundation Section */
+.foundation-section {
+  margin: 30px 0;
+}
+
+.foundation-section h2 {
+  font-size: 28px;
+  color: #a36e29;
+  margin-bottom: 15px;
+}
+
+.foundation-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.foundation-section li {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #2c3e50;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  margin: 50px 0;
+}
+
+.portfolio-section h2 {
+  font-size: 28px;
+  color: #a36e29;
+  margin-bottom: 20px;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.portfolio-card {
+  /* background: #333; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  flex: 1;
+  min-width: 300px;
+}
+
+.portfolio-card h3 {
+  color: #2c3e50;
+  /* color: #a36e29; */
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.portfolio-card p {
+  text-align: justify;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+/* Statistics Section */
+.statistics-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.statistics-section h2 {
+  font-size: 28px;
+  color: #a36e29;
+  margin-bottom: 20px;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stats-card {
+  /* background: #333; */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 200px;
+}
+
+.stats-card h4 {
+  font-size: 36px;
+  /* color: #a36e29; */
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.stats-card p {
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .portfolio-cards,
+  .stats-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

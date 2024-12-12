@@ -1,0 +1,253 @@
+/* Ensure the image fills the width of the viewport */
+.img1 {
+    width: 100%;
+    height: 400px;
+    margin-top: 84px;
+  }
+  
+/* Main container for padding on both sides */
+.introduction-container {
+    padding: 0 40px;
+    margin-top: 50px;
+}
+
+/* Main section layout */
+.introduction-section {
+    display: flex;
+    gap: 20px; /* Adds space between the image section and content section */
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left section with large and small images */
+.introduction-left {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    width: 50%;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Large image styling */
+.introduction-large-img {
+    width: 55%; /* Reduced the width of the large image */
+    height: 445px;
+    border-radius: 22% 3%;
+    object-fit: cover;
+}
+
+/* Small images beside the large image */
+.introduction-small-images {
+    display: flex;
+    flex-direction: column; /* Stacks images vertically */
+    gap: 15px; /* Adds space between small images */
+    width: 40%;
+}
+
+.introduction-small-img {
+    width: 108%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 216px;
+}
+
+/* Right section with content */
+.introduction-content {
+    margin-top: -40px;
+    width: 50%;
+    padding-left: 20px;
+    text-align: center; /* Center-aligns text */
+}
+
+/* Content section heading */
+.introduction-content h4 {
+    font-size: 30px;
+    color: #a36e29;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.introduction-content h1 {
+    font-size: 25px;
+    color: #222;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.introduction-content p {
+    text-align: justify;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Features */
+.introduction-features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.introduction-feature-item {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    width: 48%; /* Take almost half the width to maintain side-by-side */
+    box-sizing: border-box;
+}
+
+.introduction-feature-item h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #222;
+}
+
+.introduction-feature-item p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Button */
+.introduction-about-btn {
+    background-color: #a36e29;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block; /* Ensure button takes full width */
+    margin: 20px auto 0; /* Center button horizontally */
+    text-align: left; /* Align text inside button to the left */
+}
+
+.introduction-about-btn:hover {
+    background-color: #a36e29;
+}
+
+
+
+
+  
+
+/* Media Queries for Responsiveness */
+
+/* Tablets (iPad) */
+@media screen and (max-width: 768px) {
+    .introduction-section {
+        flex-direction: column;
+    }
+
+    .introduction-content {
+        order: 1; /* Content comes first */
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .introduction-left {
+        order: 2; /* Image comes second */
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .introduction-large-img, .introduction-small-images {
+        width: 80%;
+        height: auto; /* Adjust height for responsiveness */
+        border-radius: 10px;
+    }
+
+    .introduction-small-images {
+        flex-direction: row; /* For smaller screens, align small images horizontally */
+        justify-content: space-between;
+    }
+
+    .introduction-small-img {
+        width: 48%;
+        height: auto; /* Adjust height for responsiveness */
+    }
+
+    /* Features side by side on tablet view */
+    .introduction-features {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .introduction-feature-item {
+        width: 48%; /* Each feature takes up almost half the container width */
+    }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 576px) {
+    .introduction-section {
+        flex-direction: column;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 176px;
+        margin-top: 0px;
+    }
+
+    .introduction-content {
+        order: 1; /* Content comes first */
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .introduction-left {
+        order: 2; /* Image comes second */
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduction-large-img {
+        width: 90%;
+        height: auto; /* Adjust height for responsiveness */
+        border-radius: 10px;
+    }
+
+    .introduction-small-images {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    .introduction-small-img {
+        width: 45%;
+        height: auto; /* Adjust height for responsiveness */
+    }
+
+    .introduction-features {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .introduction-feature-item {
+        width: 100%;
+        max-width: none;
+    }
+
+    .introduction-about-btn {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+  
