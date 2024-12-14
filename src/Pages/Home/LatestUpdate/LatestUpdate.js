@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./LatestUpdate.css";
-import bgImage from "./Images/Brand.png"; // Adjust the path as needed
+import bgImage from "./Images/Latest News & Updates.jpg"; // Adjust the path as needed
 
 
 const LatestUpdate = () => {

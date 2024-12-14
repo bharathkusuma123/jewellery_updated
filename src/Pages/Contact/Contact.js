@@ -11,13 +11,13 @@ const ContactForm = () => {
       
       <div className="cont-section-container">
         <div className="cont-banner">
-          <div className="cont-banner-text">
+          {/* <div className="cont-banner-text">
             Contact Us
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="contact-page-container">
-      <h1>Contact Us</h1>
+      {/* <h1>Contact Us</h1> */}
 
 
       {/* Investor Relations */}

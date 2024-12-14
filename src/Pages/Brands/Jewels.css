@@ -62,7 +62,6 @@
       
       .bro-detail-box {
         flex: 1;
-        max-width: 50%;
         text-align: center;
       }
       
@@ -98,14 +97,85 @@
 
 
 
+      .category-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .category-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      .category-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .category-card h3 {
+        font-size: 1.2rem;
+        margin: 15px 0;
+        color: #333;
+      }
+      
+      .category-card a {
+        display: inline-block;
+        color: #a36e29;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: 15px;
+        transition: color 0.3s ease;
+      }
+      
+      .category-card a:hover {
+        color: #a36e29;
+      }
+      
 
+
+      @media only screen and (max-width: 1024px) and (min-width: 768px) {
+        .category-list {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+          padding: 15px;
+        }
+      
+        .category-card h3 {
+          font-size: 1.1rem;
+        }
+      
+        .category-card a {
+          font-size: 0.9rem;
+        }
+      }
+      
 
 
      
       
       /* Responsive Styles */
-      @media (max-width: 768px) {
+      @media  (min-width: 768px) and (max-width: 1024px)  {
 
+        .image-container {
+          max-width: 100%; /* Ensures the container doesn't exceed screen width */
+          overflow: hidden; /* Prevents overflow of the image */
+          text-align: center; /* Aligns the image to the center */
+          margin-top: 20px;
+        }
 
         .br-brand-title {
           font-size: 2.5rem;
@@ -131,10 +201,63 @@
           height: 300px;
           border-radius: 10px;
           object-fit: cover;
+          margin-left: -26px;
       }
       }
       
 
+
+
+      @media (max-width: 767px) {
+
+
+        .storebro-experience-section {
+          display: flex
+      ;
+          flex-direction: column;
+        
+          padding: 20px;
+          width: 80%;
+          margin: 0 auto;
+      }
+        .category-list {
+          grid-template-columns: 1fr;
+          gap: 10px;
+          padding: 10px;
+        }
+      
+        .category-card {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+      
+        .category-card h3 {
+          font-size: 1rem;
+        }
+      
+        .category-card a {
+          font-size: 0.8rem;
+        }
+        .image-container
+        .responsive-image  {
+          width: 100%;
+          height: 200px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          margin: 0 auto;
+          display: block;
+          margin-top: 28px;
+      }
+
+      .storebro-experience-section
+      .bro-detail-box {
+        width: 100%;
+      }
+      .storebro-experience-section
+       .bro-detail-image {
+        width: 100%;
+      }
+      }
+      
 
 
       @media (max-width: 480px) {
@@ -144,8 +267,8 @@
           height: 300px;
           border-radius: 10px;
           object-fit: cover;
-          width: 100%;
-      }
+          width: 350px;
+          margin-left: -100px;      }
 
       }
 

@@ -2,11 +2,11 @@ import React from 'react';
 import './AboutUs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArchway, faPalette, faGlobe } from '@fortawesome/free-solid-svg-icons';
-import about1 from './Images/wisdomofourelderss.png'
-import about2 from './Images/about1.png';
-import about3 from './Images/PILLERSOFVISION1.png';
-import about4 from './Images/PILLERSOFVISION2.png';
-import about5 from './Images/PILLERSOFVISION3.png';
+import about1 from './Images/grandma.png'
+import about2 from './Images/PURPOSE SAD WEB.png';
+import about3 from './Images/Empowering Communities.jpg';
+import about4 from './Images/Ethical Leadership Commitment.jpg';
+import about5 from './Images/Impacting Society.jpg';
 import about6 from './Images/visionimg.jpg';
 import web from './Images/websitebanner.png';
 

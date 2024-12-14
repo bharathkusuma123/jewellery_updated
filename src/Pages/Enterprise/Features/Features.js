@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css';
-import img1 from '../Images//enterprise.png'
+import img1 from '../Images//sadashri WRB.png'
 import img2 from '../Images/companyy ethics2.png'
 
 function Features() {

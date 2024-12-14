@@ -53,6 +53,7 @@
     .introduction-container {
       flex-direction: column; /* Stack items vertically on mobile */
       padding: 20px;
+      margin-top: -20px;
     }
   
     .introduction-left,
@@ -60,10 +61,22 @@
       flex: none;
       width: 100%; /* Both the image and content will take full width */
     }
+
+    .introduction-container .introduction-left{
+      width: 80%;
+      margin-left: -8px;
+    }
+    .introduction-container  .introduction-right{
+      text-align: justify;
+      margin-left: -28px;
+      margin-top: -40px;
+    }
   
+    .introduction-container .introduction-left
     .introduction-image {
-      width: 100%; /* Image takes full width */
+      width: 300px;
       height: auto;
+      margin-left: 20px;
     }
   
     .introduction-title {
@@ -78,15 +91,20 @@
   /* Tablet View (medium screens like iPads) */
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     .introduction-container {
-      flex-direction: row; /* Side by side on tablet */
+      flex-direction: column; /* Side by side on tablet */
     }
   
     .introduction-left,
     .introduction-right {
       flex: 1; /* Each takes 50% of the container */
-      width: 50%; /* Ensure they take equal width */
     }
   
+
+    .introduction-right{
+      text-align: justify;
+      margin-left: -27px;
+      padding-right: 34px;
+    }
     .introduction-title {
       font-size: 36px; /* Adjust title size for tablet */
     }
@@ -94,6 +112,12 @@
     .introduction-text {
       font-size: 18px; /* Adjust text size for tablet */
     }
+    .introduction-image {
+      width: 103%;
+      border-radius: 10px;
+      height: 360px;
+      margin-left: -111px;
+  }
   }
   
   /* Desktop View (large screens) */

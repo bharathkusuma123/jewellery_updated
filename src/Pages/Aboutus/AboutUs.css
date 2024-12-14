@@ -38,39 +38,54 @@
   /* margin-top: 150px; */
 }
 
-
-
-
-
-.image-section img {
-  animation: comeUp 1.5s ease-out forwards;
-  opacity: 0; /* Ensures the image starts invisible */
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Optional smooth transition */
+@media  (min-width: 768px) and (max-width: 1024px)  {
+  .ab_image-container
+  .ab_responsive-image {
+    margin-top: 20px;
+   
 }
+.sec-1-banner-section {
+  height: 350px; /* Adjust height for tablets */
+}
+.sec-1-banner-heading {
+  font-size: 2rem; /* Adjust font size */
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem; /* Add padding for better readability */
+  margin-top: 150px;
+  margin-left: 0px;
 
-
+}
+.sec-4-pillar
 .pillar-image {
-  animation: comeUp 1.5s ease-out forwards;
-  opacity: 0; /* Starts invisible */
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Optional for smoothness */
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.sec-4-pillars
+.sec-4-pillar h4 {
+  font-size: 2.4rem;
+  color: #a36e29;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+.image-section img {
+  width: 559px;
+  height: 400px;
+  margin-left: -40px;
+  margin-bottom: 25px;
+}
+
 }
 
 
-/* Responsive Styles for Tablets (iPads) */
-@media (max-width: 768px) {
-  .sec-1-banner-section {
-    height: 350px; /* Adjust height for tablets */
-  }
-  .sec-1-banner-heading {
-    font-size: 2rem; /* Adjust font size */
-    color: #fff;
-    text-align: center;
-    padding: 0 1rem; /* Add padding for better readability */
-    margin-top: 150px;
-    margin-left: 0px;
 
-  }
-}
+
+
+
+
 
 /* Responsive Styles for Mobile Devices */
 @media (max-width: 480px) {
@@ -80,6 +95,16 @@
 
   .sec-1-banner-heading {
     font-size: 20px; /* Adjust font size */
+  }
+  .about-us
+  .ab_responsive-image {
+    width: 100%; /* Ensures the image spans the container's width */
+    height: 200px; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    margin: 0 auto; /* Centers the image */
+    display: block; /* Ensures no inline space around the image */
+    margin-top: 30px;
   }
 }
 
@@ -284,8 +309,7 @@
   justify-content: space-between;
   gap: 1rem; /* Space between text and image */
   /* padding: 1rem; */
-  width: 100%;
-  max-width: 1200px; /* Optional: Limit width for larger screens */
+  width: 80%;
   margin: 0 auto; /* Center the layout */
 }
 
@@ -324,6 +348,7 @@
   .content-wrapper {
     flex-direction: column; /* Stack text and image vertically */
     text-align: center; /* Center-align content */
+    width: 100%;
   }
 
   .text-section {
@@ -338,7 +363,7 @@
 
   .image-section img {
 
-    width: 686px;
+    /* width: 686px; */
     height: 400px;
     margin-left: -40px;
     margin-bottom: 25px;
@@ -349,6 +374,7 @@
 @media (max-width: 480px) {
   .content-wrapper {
     padding: 0.5rem;
+    width: 95%;
   }
 
   .text-section {
@@ -365,7 +391,7 @@
   }
 
   .image-section img {
-    max-width: 90%; /* Slightly smaller for better fit */
+    max-width: 98%; /* Slightly smaller for better fit */
     margin: 0 auto;
     height: 200px;
   }

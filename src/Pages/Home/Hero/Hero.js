@@ -43,7 +43,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="hero-carousel-container" style={{ paddingTop: '83px' }}>
+    <div className="hero-carousel-container" >
       <Carousel
         autoPlay
         infiniteLoop

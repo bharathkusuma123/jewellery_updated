@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
-import mainlogo from './logo/logo_dark.png';
+import mainlogo from './logo/sadashri parent logo123.jpg';
+// import logonew from './logo/sadashri parent logo.svg'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,8 +41,8 @@ function Navbar() {
       </div>
 
       <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
-        <Link to="/">Home</Link>
-        <Link to="/AboutUs">Purpose</Link>
+        <a href="/">Home</a>
+        <a href="/AboutUs">Purpose</a>
 
         {/* <div
           className="navbar-dropdown"
@@ -52,7 +52,7 @@ function Navbar() {
           <span>Offline Store</span>
           {offlineDropdownOpen && (
             <div className="navbar-dropdown-content">
-              <Link to="/schemes">Schemes</Link>
+              <a href="/schemes">Schemes</a>
             </div>
           )}
         </div> */}
@@ -65,13 +65,13 @@ function Navbar() {
           <span>Online Store</span>
           {onlineDropdownOpen && (
             <div className="navbar-dropdown-content">
-              <Link to="/seller">Seller</Link>
-              <Link to="/user">User</Link>
+              <a href="/seller">Seller</a>
+              <a href="/user">User</a>
             </div>
           )}
         </div> */}
 
-        <Link to="/Enterprise">Enterprise</Link>
+        <a href="/Enterprise">Enterprise</a>
         
         <div
           className="navbar-dropdown"
@@ -81,14 +81,13 @@ function Navbar() {
           <span>Brands</span>
           {brandsDropdownOpen && (
             <div className="navbar-dropdown-content">
-              <Link to="/sadashri-jewels">Sadashri Jewels-Our Store</Link>
-              <Link to="/sadashri-jewelkart">Sadashri Jewelkart-Online Platform</Link>
+              <a href="/sadashri-jewels">Sadashri Jewels-Our Store</a>
+              <a href="/sadashri-jewelkart">Sadashri Jewelkart-Online Platform</a>
             </div>
           )}
         </div>
 
-        
-        <Link to="/contactUs">Contact Us</Link>
+        <a href="/contactUs">Contact Us</a>
       </nav>
     </header>
   );

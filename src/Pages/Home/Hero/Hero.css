@@ -2,6 +2,7 @@
 .hero-carousel-container {
   width: 100%;
   margin: 0 auto;
+  padding-top: 83px;
 }
 
 /* Custom styles for the carousel */
@@ -12,7 +13,7 @@
 /* Container for each slide's background */
 .hero-slide {
   position: relative;
-  height: 95%;
+  height: 100%;
 }
 
 /* Style the background image of each slide */
@@ -89,14 +90,48 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .hero-carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.hero-main-text {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero-sub-text {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.explore-button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #a36e29;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+}
+
+
 /* Mobile responsive styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hero-main-text {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: -1rem;
+
   }
 
   .hero-sub-text {
-    display: none;
+    font-size: 10px;
+    margin-bottom: -20px;
   }
 
   .hero-carousel {
@@ -104,11 +139,19 @@
   }
 
   .hero-slide {
-    height: 90%;
+    height: 126%;
   }
 
   .explore-button {
-    font-size: 0.9rem;
-    padding: 0.6rem 1.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 10px;
+    color: white;
+    background-color: #a36e29;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    margin-bottom: 10px;
   }
 }

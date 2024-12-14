@@ -9,6 +9,18 @@
   margin-top: 40px;
   margin-bottom: 50px;
 }
+.cont-banner {
+  width: 100%;
+  height: 500px;
+  background-image: url('./Images/contact2img.jpg');
+  /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .contact-form {
   width: 40%;
@@ -151,6 +163,7 @@ textarea {
   margin: 0 auto;
   padding: 20px;
   color: #333;
+  margin-top: 80px;
 }
 
 h1 {
@@ -356,18 +369,7 @@ h1 {
   /* margin-top: 128px; */
 }
 
-.cont-banner {
-  width: 100%;
-  height: 400px;
-  background-image: url('./Images/baner-contact.jpg');
-  /* Replace with actual image path */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .cont-banner-text {
   color: white;
@@ -404,7 +406,6 @@ h1 {
   /* Tablet */
   .cont-section-container {
     height: 250px;
-    margin-top: 250px;
 
   }
 
@@ -417,8 +418,21 @@ h1 {
 
 @media (max-width: 480px) {
 
+  .cont-banner {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    margin-top: 175px;
+}
   .contact-page-container {
     padding: 10px;
+    margin-top: 100px;
   }
 
   .contact-card {
@@ -437,7 +451,6 @@ h1 {
   /* Mobile */
   .cont-section-container {
     height: 200px;
-    margin-top: 20px;
   }
 
   .cont-banner-text {
@@ -493,11 +506,11 @@ h1 {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1024px) {
 
   .contact-container {
     width: 90%;
-    margin-top: -120px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
 
@@ -509,15 +522,24 @@ h1 {
   .cont-banner {
     width: 100%;
     height: 300px;
-    background-image: url('./Images/baner-contact.jpg');
+    background-image: url('./Images/contact2img.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: -400px;
+    margin-top: 210px;
     justify-content: center;
   }
+
+.contact-page-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    margin-top: 190px;
+}
 }
 
 @media (max-width: 767px) {
