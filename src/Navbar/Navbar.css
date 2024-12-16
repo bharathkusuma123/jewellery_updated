@@ -173,7 +173,7 @@
   
     .navbar-links {
       position: absolute;
-      top: 60px;
+      top: 29px;
       left: 0;
       width: 100%;
       background-color: #fff;
@@ -272,7 +272,7 @@
       
     .navbar-links {
       position: absolute;
-      top: 60px;
+      top: 39px;
       left: 0;
       width: 100%;
       background-color: #fff;
@@ -336,3 +336,37 @@
 
     
   }
+
+
+
+
+
+
+
+
+
+  
+  .navbar-links a:hover {
+    color: #a36e29; 
+  }
+  
+  .navbar-links a.active {
+    color: #a36e29; 
+    font-weight: bold; 
+  }
+  
+ 
+  
+  .navbar-dropdown-content a.active {
+    color: #a36e29;
+    font-weight: bold;
+  }
+
+
+
+  .navbar-dropdown.active span {
+    color: #a36e29;
+    font-weight: bold;
+  }
+  
+  
