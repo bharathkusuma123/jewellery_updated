@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer'; // Import Intersection Observer hook
-import 'animate.css'; // Import Animate.css for animations
+// import 'animate.css'; // Commented out animation library import
 import './Introduction.css';
 import IntroImage from './Images/What We Do.jpg';
 
@@ -17,7 +17,8 @@ const Introduction = () => {
     >
       <div
         className={`introduction-left ${
-          inView ? 'animate__animated animate__fadeInLeft' : ''
+          // inView ? 'animate__animated animate__fadeInLeft' : '' // Commented out animation class toggle
+          ''
         }`}
       >
         <img 
@@ -28,7 +29,8 @@ const Introduction = () => {
       </div>
       <div
         className={`introduction-right ${
-          inView ? 'animate__animated animate__fadeInRight' : ''
+          // inView ? 'animate__animated animate__fadeInRight' : '' // Commented out animation class toggle
+          ''
         }`}
       >
         <h2 className="introduction-title">What We Do</h2>

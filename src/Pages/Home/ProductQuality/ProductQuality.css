@@ -43,9 +43,7 @@
     background-color: #222;
     text-align: left;
   }
-  .Read-more{
-    margin-left:80%
-  }
+ 
 
   /* Left and Right Layout for Desktop */
   .product-quality-card.left {
@@ -54,16 +52,20 @@
   .product-quality-card.right {
     align-self: flex-end;
   }
-  .product-quality-heading-card{
-    text-align: center;
-    font-size: 24px;
-  }
+
   /* Responsive Styling */
   @media (min-width: 768px) {
     .product-quality-content {
       flex-direction: row;
     }
+    .product-quality-heading-card {
+      text-align: center;
+      font-size: 18px;
+  }
   
+  .Read-more {
+    margin-left: 60%;
+}
     .product-quality-card {
       flex: 1;
       max-width: 48%;
@@ -83,6 +85,15 @@
     .product-quality-para {
       font-size: 18px;
     }
+
+    .product-quality-heading-card {
+      text-align: center;
+      font-size: 25px;
+  }
+  
+  .Read-more {
+    margin-left: 80%;
+}
   }
   
   @media (max-width: 768px) {
