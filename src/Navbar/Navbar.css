@@ -250,7 +250,7 @@
     }
   
     .navbar-links a, .navbar-buttons a {
-      font-size: 0.9rem;
+      font-size: 20px;
       padding: 0.8rem;
     }
   
@@ -299,10 +299,16 @@
       text-align: center;
       border-bottom: 1px solid #f1f1f1;
     }
+
+
+    .navbar-links.open span{
+      margin-left: -20px;
+    }
   
     .navbar-dropdown-content {
       position: static;
-      width: 100%;
+      width: 120%;
+      margin-left: -59px;
     }
   
     .navbar-hamburger {

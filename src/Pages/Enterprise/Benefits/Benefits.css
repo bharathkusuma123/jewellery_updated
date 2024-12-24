@@ -195,6 +195,13 @@ body {
     width: 300px;
   }
   .portfolio-card{
-    width: 310px;
+    width: 330px;
+    padding: 10px;
   }
+  .main-section h1 {
+    font-size: 30px;
+    color: #a36e29;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
 }

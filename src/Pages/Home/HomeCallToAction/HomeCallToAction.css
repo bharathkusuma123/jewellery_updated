@@ -61,6 +61,13 @@
 
 /* Mobile View */
 @media (max-width: 600px) {
+  .home-call-to-action {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-top: -41px;
+    margin-bottom: 0px;
+  }
   .home-call-to-action-heading {
     font-size: 24px;
   }

@@ -53,6 +53,27 @@
     align-self: flex-end;
   }
 
+  @media (max-width: 767px){
+    .product-quality-heading-card {
+      text-align: center;
+      font-size: 25px;
+      color: #a36e29;
+  }
+  .product-quality-card.left {
+    align-self: flex-start;
+    /* height: 200px; */
+  }
+  .product-quality-card.right {
+    align-self: flex-end;
+    /* height: 160px; */
+
+  }
+  .Read-more {
+    margin-left: 60%;
+    color: #a36e29;
+}
+  }
+
   /* Responsive Styling */
   @media (min-width: 768px) {
     .product-quality-content {
@@ -109,6 +130,7 @@
   
     .product-quality-para {
       font-size: 0.95em;
+      text-align: justify;
     }
     
     .product-quality-card {

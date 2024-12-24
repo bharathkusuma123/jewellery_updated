@@ -140,7 +140,7 @@
         max-width: 88%;
         padding: 15px;
         /* margin: 10px auto; */
-        margin-left: 5px;
+        margin-top: -10px;
     }
 
     .LatestUpdate-card h2 {
@@ -149,6 +149,8 @@
 
     .LatestUpdate-card p {
         font-size: 14px;
+        width: 92%;
+        margin-left: -19px;
     }
 
     .LatestUpdate-points {

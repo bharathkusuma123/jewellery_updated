@@ -227,6 +227,24 @@ h1 {
 .find_ans{
   margin-left: 207px;
 }
+
+@media (max-width: 767px) {
+  .contact-page-container
+.contact-card .inv_rel {
+    margin-left: -26px;
+}
+
+
+.contact-card .find_ans {
+  margin-left: 1px;
+}
+.contact-card 
+.l_p{
+  margin-left: 1px;
+}
+}
+
+
 @media (max-width: 480px) {
 
   .contact-page-container {
@@ -366,6 +384,10 @@ h1 {
     width: 90%;
 
   }
+  .contact-card
+.access{
+  margin-left: 1px;
+}
 }
 
 .map-section {
@@ -459,6 +481,8 @@ h1 {
   .contact-card p,
   .contact-card ul {
     font-size: 12px;
+    margin-left: -27px;
+
   }
 
   /* Mobile */
@@ -558,7 +582,7 @@ h1 {
 @media (max-width: 767px) {
   .contact-container {
     width: 80%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 

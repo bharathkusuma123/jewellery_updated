@@ -73,9 +73,10 @@
   
     .introduction-container .introduction-left
     .introduction-image {
-      width: 300px;
+      width: 330px;
       height: auto;
       margin-left: 20px;
+      margin-bottom: -33px;
     }
   
     .introduction-title {
@@ -84,6 +85,8 @@
   
     .introduction-text {
       font-size: 16px; /* Smaller text for mobile */
+      width: 107%;
+      margin-left: -10px;
     }
   }
   
