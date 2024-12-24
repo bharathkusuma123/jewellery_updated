@@ -85,12 +85,21 @@
   }
   
   .Read-more {
-    margin-left: 60%;
+    margin-left: 66%;
+    color: #a36e29;
+
 }
     .product-quality-card {
       flex: 1;
       max-width: 48%;
+      height: 220px;
     }
+
+    .product-quality-heading-card {
+      text-align: center;
+      font-size: 25px;
+      color: #a36e29;
+  }
   }
   
   @media (min-width: 992px) {

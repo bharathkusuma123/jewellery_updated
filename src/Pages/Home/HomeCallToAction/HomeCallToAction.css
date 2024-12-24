@@ -108,6 +108,15 @@
   .home-call-to-action-button {
     padding: 9px 18px;
   }
+
+
+  .home-call-to-action {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
 }
 
 /* Desktop View */

@@ -100,15 +100,15 @@
     }
   
     .why-choose-us p {
-      font-size: 1em; /* Adjust paragraph font size */
+      font-size: 20px; /* Adjust paragraph font size */
     }
   
     .choose-feature-item h3 {
-      font-size: 1.2em; /* Adjust features text size */
+      font-size: 2em; /* Adjust features text size */
     }
   
     .choose-feature-item p {
-      font-size: 1em;
+      font-size: 20px;
     }
   }
   

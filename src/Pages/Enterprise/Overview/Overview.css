@@ -137,6 +137,13 @@
     background-color: #a36e29;
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .introduction-container
+    .intro_sec{
+        margin-left: 10px;
+    }
+}
+
 
 
 
@@ -146,8 +153,17 @@
 
 /* Tablets (iPad) */
 @media screen and (max-width: 768px) {
+
+
+
+.img1 {
+    width: 100%;
+    height: 330px;
+    margin-top: 84px;
+}
     .introduction-section {
         flex-direction: column;
+        margin-left: -5px;
     }
 
     .introduction-content {
@@ -199,6 +215,7 @@
     .introduction-section {
         flex-direction: column;
         width: 70%;
+        margin-right: 10px;
     }
 
     .img1 {

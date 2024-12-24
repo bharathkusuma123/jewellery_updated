@@ -34,7 +34,7 @@ const ContactForm = () => {
         <div className="contact-card">
           <FaMapMarkerAlt className="contact-icon" />
           <h3>Career Opportunities</h3>
-          <ul>
+          <ul className='explores'>
             <li>Explore current job openings at Sadashri Ventures.</li>
             <li>Learn about our application process and company culture.</li>
             <li>Discover employee benefits and growth opportunities.</li>

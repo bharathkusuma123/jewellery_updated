@@ -575,7 +575,33 @@ h1 {
     margin: 0 auto;
     padding: 20px;
     color: #333;
-    margin-top: 190px;
+    margin-top: 145px;
+}
+.contact-card .inv_rel {
+  margin-left: -25px;
+}
+
+.contact-card .explores{
+  margin-left: -23px;
+}
+.contact-card .access {
+  margin-left: 2px;
+}
+.contact-card .find_ans {
+  margin-left: 0px;
+}
+
+.submit-but {
+  padding: 12px;
+  background-color: #a36e29;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 35%;
 }
 }
 

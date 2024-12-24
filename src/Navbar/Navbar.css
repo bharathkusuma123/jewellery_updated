@@ -233,6 +233,11 @@
     .navbar-hamburger.open .navbar-bar:nth-child(3) {
       transform: translateY(-7px) rotate(-45deg);
   }
+
+
+  .navbar-links.open span{
+    margin-left: -20px;
+  }
   }
   
   /* Extra small devices */

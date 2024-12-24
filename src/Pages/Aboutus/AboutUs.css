@@ -42,6 +42,7 @@
   .ab_image-container
   .ab_responsive-image {
     margin-top: 20px;
+    border-radius: 2px;
    
 }
 .sec-1-banner-section {
@@ -206,6 +207,7 @@
     height: 400px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
 }
 
   
@@ -367,7 +369,7 @@
 
   .image-section img {
 
-    /* width: 686px; */
+    width: 686px;
     height: 400px;
     margin-left: -40px;
     margin-bottom: 25px;

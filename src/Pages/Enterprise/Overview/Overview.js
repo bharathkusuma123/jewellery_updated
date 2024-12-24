@@ -9,7 +9,7 @@ function Overview() {
   return (
     <div>
       <div className="introduction-container">
-        <div className="introduction-section">
+        <div className="introduction-section intro_sec">
           {/* Left Section: Images and Experience */}
           <div className="introduction-left">
             <img src={img1} className="introduction-large-img" />
