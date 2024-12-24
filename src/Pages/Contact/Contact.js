@@ -24,7 +24,7 @@ const ContactForm = () => {
       <div className="contact-card">
         <FaUserTie className="contact-icon" />
         <h3>Investor Relations</h3>
-        <ul>
+        <ul className='inv_rel'>
           <li>How investors can connect with us.</li>
           <li>Details on investment opportunities, reports, and press releases.</li>
         </ul>
@@ -45,7 +45,7 @@ const ContactForm = () => {
       <div className="contact-card">
         <FaPhoneAlt className="contact-icon" />
         <h3>Media & Press Inquiries</h3>
-        <p>
+        <p className='access'>
           Access press releases, media kits, or schedule interviews with our media relations team.
         </p>
       </div>
@@ -54,7 +54,7 @@ const ContactForm = () => {
       <div className="contact-card">
         <FaQuestionCircle className="contact-icon" />
         <h3>FAQ</h3>
-        <p>
+        <p className='find_ans'>
           Find answers to common questions from clients, investors, and job seekers in our FAQ section.
         </p>
       </div>
@@ -135,7 +135,7 @@ const ContactForm = () => {
       </div>
       {/* Map Section */}
       <div className="map-section">
-        <h2>Get In Touch With Us Here</h2>
+        <h2 style={{color:'#a36e29'}}>Get In Touch With Us Here</h2>
         <iframe
           title="Google Map"
           className="map-iframe"

@@ -34,7 +34,7 @@ const Footer = () => {
           {/* </div> */}
           <div className='footermainsection'>
             <div className="footer-section">
-              <p style={{ color: 'black', fontSize: '20px' }} className="footer-heading">Quick Menu</p>
+              <p style={{ color: 'black', fontSize: '22px' }} className="footer-heading">Quick Menu</p>
               <p>  <a href="/" className="footer-link">Home</a></p>
               <p><a href="/Enterprise" className="footer-link">Enterprise</a></p>
               <p><a href="/sadashri-jewels" className="footer-link">Sadashri Jewels-Our Store</a></p>
@@ -44,7 +44,7 @@ const Footer = () => {
               <p><a href="/contactUs" className="footer-link">Contact Us</a></p>
             </div>
             <div className="footer-section">
-              <p style={{ color: 'black', fontSize: '20px' }} className="footer-heading">Contact Details</p>
+              <p style={{ color: 'black', fontSize: '22px' }} className="footer-heading">Contact Details</p>
               <p className="footer-info">Building No./Flat No.: NO 1323/1324</p>
               <p className="footer-info">Road/Street: 16TH B CROSS HOUSING BOARD COLONY EWS 3RD PHASE</p>
               <p className="footer-info">Phone No: 9964644424</p>

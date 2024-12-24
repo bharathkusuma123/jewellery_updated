@@ -18,7 +18,7 @@
 /* Overlay effect */
 .LatestUpdate-card::before {
     content: "";
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
@@ -36,10 +36,10 @@
 .LatestUpdate-points {
     margin-top: 30px;
     text-align: left;
-    padding-left: 195px;
+    /* padding-left: 195px; */
     list-style-type: disc;
     color: #fff;
-    width: 74%;
+    width: 55%;
 }
 
 /* Styling for individual bullet points */
@@ -79,16 +79,60 @@
 }
 
 .LatestUpdate-card h2 {
-    font-size: 24px;
+    font-size: 2.6rem;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .LatestUpdate-card p {
-    font-size: 16px;
-    max-width: 85%; /* Limits paragraph width */
+    font-size: 18px;
     margin: 10px auto;
     text-align: justify; /* Justify text for readability */
 }
+
+
+
+
+/* Desktop View */
+/* @media (min-width: 1025px) {
+    .LatestUpdate-card {
+        max-width: 90%;
+        padding: 30px;
+        margin: 40px auto;
+        height: 268px;
+    }
+
+    .LatestUpdate-card h2 {
+        font-size: 2.6rem;
+        text-align: left;
+    }
+
+    .LatestUpdate-card p {
+        font-size: 18px;
+        width: 80%; 
+        margin: 10px auto;
+        text-align: justify;
+        
+    }
+
+    .LatestUpdate-points {
+        padding-left: 195px;
+        width: 74%;
+    }
+
+    .LatestUpdate-points li {
+        font-size: 16px;
+    }
+
+    .Brand-aligment {
+        margin-left: 20px;
+    }
+
+    .LatestUpdate-paragraph {
+        font-size: 20px;
+    }
+} */
+
 
 /* Mobile View (Extra Small Devices) */
 @media (max-width: 767px) {
@@ -160,40 +204,4 @@
     }
 }
 
-/* Desktop View */
-@media (min-width: 1025px) {
-    .LatestUpdate-card {
-        max-width: 90%;
-        padding: 30px;
-        margin: 40px auto;
-        height: 268px;
-    }
 
-    .LatestUpdate-card h2 {
-        font-size: 2.6rem;
-    }
-
-    .LatestUpdate-card p {
-        font-size: 18px;
-        width: 80%; /* Constrains paragraph width for readability */
-        margin: 10px auto;
-        text-align: justify;
-    }
-
-    .LatestUpdate-points {
-        padding-left: 195px;
-        width: 74%;
-    }
-
-    .LatestUpdate-points li {
-        font-size: 16px;
-    }
-
-    .Brand-aligment {
-        margin-left: 20px;
-    }
-
-    .LatestUpdate-paragraph {
-        font-size: 20px;
-    }
-}

@@ -26,9 +26,9 @@ function Overview() {
             <p>
               At Sadashri Ventures, we are committed to running our business with the highest standards of ethics and integrity. Our relationship with society is built on trust, transparency, and accountability. We strive to create an environment where innovation thrives but always in a way that honors our roots and uplifts the greater good.
             </p>
-            <p>
+            {/* <p>
               [Visual: Icon Box featuring icons like a handshake (ethics), a heart (integrity), and a globe (responsibility).]
-            </p>
+            </p> */}
             <div className="introduction-features">
               <div className="introduction-feature-item">
                 {/* <span role="img" aria-label="Checkmark">✅</span> */}
@@ -46,7 +46,7 @@ function Overview() {
               </div>
             </div>
             {/* Update the button to be a Link */}
-            <Link to="https://stage.sadashrijewelkart.com/signup">
+            <Link to="https://stage.sadashrijewelkart.com/signup" style={{ textDecoration: 'none' }} >
               <button className="introduction-about-btn">Register Here
               </button>
             </Link>

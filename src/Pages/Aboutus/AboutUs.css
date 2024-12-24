@@ -100,7 +100,7 @@
   .ab_responsive-image {
     width: 100%; /* Ensures the image spans the container's width */
     height: 200px; /* Maintains the aspect ratio */
-    border-radius: 10px; /* Adds rounded corners */
+    border-radius: 1px; /* Adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
     margin: 0 auto; /* Centers the image */
     display: block; /* Ensures no inline space around the image */
@@ -135,10 +135,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  /* padding: 2rem; */
   border-radius: 8px;
   gap: 1rem;
-  width: 75%;
+  width: 77%;
   margin: 0 auto;
 }
 
@@ -154,6 +154,7 @@
   color: #a36e29;;
   margin-bottom: 1rem;
   text-align: center;
+  font-weight: 500;
 }
 
 .legacy-introduction {
@@ -176,7 +177,7 @@
 
 .infographic-image {
   width: 100%;
-  height: 450px;
+  height: 400px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -243,14 +244,16 @@
           font-size: 2.5rem;
             color: #a36e29;
           text-align: center;
-          margin-bottom: 1rem;
+          margin-top: -5px;
+          font-weight: 500;
+
         }
       
         .sec-2-section-subtitle {
           font-size: 1.4rem;
           color: #444;
           text-align: center;
-          margin-bottom: 1.5rem;
+          margin-top: -30px;
         }
       
         .sec-2-wisdom-quote {
@@ -258,7 +261,7 @@
           font-style: italic;
           color: #b76e79;
           text-align: center;
-          margin: 1rem 0 2rem;
+          margin-top: -10px;
           padding: 0 1rem;
         }
       
@@ -311,6 +314,7 @@
   /* padding: 1rem; */
   width: 80%;
   margin: 0 auto; /* Center the layout */
+  margin-bottom: 40px;
 }
 
 .text-section {
@@ -337,7 +341,7 @@
 }
 
 .image-section img {
-  width: 100%; /* Scale image to fit */
+  width: 86%; /* Scale image to fit */
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -391,10 +395,14 @@
   }
 
   .image-section img {
-    max-width: 98%; /* Slightly smaller for better fit */
     margin: 0 auto;
     height: 200px;
+    width: 330px;
   }
+  .legacy-content {
+    max-width: 100%;
+    padding: 0px;
+}
 }
 
       
@@ -404,7 +412,7 @@
         /* Generational Wisdom Section */
 .sec-3-generational-wisdom {
   background: linear-gradient(145deg, #fffaf0, #fdf6e4); /* Subtle gold theme */
-  padding: 3rem 1.5rem;
+  padding: 1rem 1.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -418,7 +426,7 @@
   font-size: 2.5rem;
   color:#a36e29; 
   margin-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -530,7 +538,7 @@
   font-size: 2.4rem;
   color: #a36e29
   ; /* Luxurious gold */
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 
@@ -572,7 +580,7 @@
 .sec-4-pillars-title {
   font-size: 2rem;
   color: #a36e29;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1.5rem;
   text-transform: capitalize;
 }
@@ -605,7 +613,7 @@
   font-size: 23px;
   color: #a36e29;
   margin-bottom: 0.8rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .sec-4-pillar p {

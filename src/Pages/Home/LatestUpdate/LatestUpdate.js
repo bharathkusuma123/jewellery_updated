@@ -12,12 +12,13 @@ const LatestUpdate = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <h2>Latest News & Updates</h2>
+      
+      <div className="LatestUpdate-points">
       <p >
         Stay up-to-date with our latest milestones, exciting partnerships, and
         new product launches. We’re always evolving, and there’s always
         something new to share.
       </p>
-      <div className="LatestUpdate-points">
         <p>
           <strong>1. New Brand Launch:</strong> Sadashri Jewelkart has just launched
           its new online collection! Explore our{" "}

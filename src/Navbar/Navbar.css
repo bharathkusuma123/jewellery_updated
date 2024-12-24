@@ -352,21 +352,21 @@
   
   .navbar-links a.active {
     color: #a36e29; 
-    font-weight: bold; 
+    /* font-weight: bold;  */
   }
   
  
   
   .navbar-dropdown-content a.active {
     color: #a36e29;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
 
 
   .navbar-dropdown.active span {
     color: #a36e29;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   

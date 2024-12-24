@@ -46,6 +46,7 @@ const AboutUs = () => {
           <p className="legacy-introduction">
             The stories were more than just tales—they were lessons, guiding principles passed down from one generation to the next.
           </p>
+          <p className="legacy-introduction">They inspire us to uphold the values of integrity, perseverance, and innovation, ensuring that our endeavors not only succeed.</p>
           <p className="legacy-introduction">
             These lessons are the foundation of everything we do at Sadashri Ventures.
           </p>

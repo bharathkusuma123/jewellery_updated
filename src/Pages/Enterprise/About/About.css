@@ -16,7 +16,7 @@
       /* Header Styling */
       .enterprise-header h1 {
         font-size: 2.6rem;
-        font-weight: 700;
+        font-weight: 500;
         color: #a36e29;
         margin-bottom: 1rem;
         text-align: center;
@@ -37,6 +37,7 @@
         color: #a36e29;
         text-align: center;
         margin-top: 3rem;
+        font-weight: 500;
       }
       
       .enterprise-journey p {
@@ -44,16 +45,18 @@
         color: #34495e; /* Dark grey text */
         line-height: 1.6;
         text-align: justify;
-        max-width: 800px;
+        /* max-width: 800px; */
         margin: 0 auto;
       }
       
       /* Principles Section Styling */
       .enterprise-principles h3 {
         font-size: 2rem;
-        color: #2c3e50; /* Deep blue-grey */
+        color: #a36e29;
         margin-top: 3rem;
         text-align: center;
+        font-weight: 500;
+
       }
       
       .enterprise-principles ul {
@@ -62,7 +65,7 @@
         font-size: 18px;
         color: #2c3e50;
         margin-top: 2rem;
-        max-width: 800px;
+        /* max-width: 800px; */
         margin: 0 auto;
       }
       

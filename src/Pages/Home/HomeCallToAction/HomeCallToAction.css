@@ -8,7 +8,7 @@
 
 .home-call-to-action-heading {
   font-size: 30px;
-  color: #333;
+  color: #a36e29;
 }
 
 .home-call-to-action-cards {
@@ -48,7 +48,7 @@
   margin-top: 10px;
   padding: 10px 20px;
   background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white */
-  color: #333; /* Dark text color for contrast */
+  color: #a36e29;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;

@@ -24,11 +24,13 @@ body {
   font-size: 36px;
   color: #a36e29;
   margin-bottom: 10px;
+  font-weight: 500;
+
 }
 
 .main-section h3 {
   font-size: 20px;
-  color: #2c3e50;
+  color: #a36e29;
   margin-bottom: 20px;
 }
 
@@ -55,6 +57,8 @@ body {
   font-size: 28px;
   color: #a36e29;
   margin-bottom: 15px;
+  font-weight: 500;
+
 }
 
 .foundation-section ul {
@@ -77,6 +81,8 @@ body {
   font-size: 28px;
   color: #a36e29;
   margin-bottom: 20px;
+  font-weight: 500;
+
 }
 
 .portfolio-cards {
@@ -95,16 +101,20 @@ body {
 }
 
 .portfolio-card h3 {
-  color: #2c3e50;
-  /* color: #a36e29; */
+  /* color: #2c3e50; */
+  color: #a36e29;
   font-size: 22px;
   margin-bottom: 10px;
+  font-weight: 500;
+
 }
 
 .portfolio-card p {
   text-align: justify;
   color: #2c3e50;
   font-size: 18px;
+  word-spacing: -1px; /* Reduce word spacing */
+
 }
 
 /* Statistics Section */
@@ -117,6 +127,8 @@ body {
   font-size: 28px;
   color: #a36e29;
   margin-bottom: 20px;
+  font-weight: 500;
+
 }
 
 .stats-cards {

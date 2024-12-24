@@ -114,8 +114,8 @@
       
       .footer-link,
       .footer-info {
-        font-size: 0.9rem;
-        color:black;
+        font-size: 17px;
+        color:#545252;
         font-weight: 500;
         margin: 5px 0;
         text-decoration: none;
@@ -129,9 +129,9 @@
       }
       
       .footer-container p {
-        text-align: center;
-        font-size: 0.9rem;
-        color:black;
+        /* text-align: center; */
+        font-size: 17px;
+        color:#545252;
         font-weight: 500;
         /* margin-top: 10px; */
         padding-bottom: 1px;

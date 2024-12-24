@@ -16,8 +16,9 @@
     display: flex;
     gap: 20px; /* Adds space between the image section and content section */
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 1270px;
     margin: 0 auto;
+    margin-left: 34px;
 }
 
 /* Left section with large and small images */
@@ -34,7 +35,7 @@
 /* Large image styling */
 .introduction-large-img {
     width: 55%; /* Reduced the width of the large image */
-    height: 445px;
+    height: 500px;
     border-radius: 22% 3%;
     object-fit: cover;
 }
@@ -51,7 +52,7 @@
     width: 108%;
     border-radius: 8px;
     object-fit: cover;
-    height: 216px;
+    height: 243px;
 }
 
 /* Right section with content */
@@ -73,16 +74,18 @@
 
 .introduction-content h1 {
     font-size: 25px;
-    color: #222;
+    color: #a36e29;
     margin-bottom: 20px;
     line-height: 1.2;
+    font-weight: 500;
+
 }
 
 .introduction-content p {
     text-align: justify;
     font-size: 18px;
     color: #555;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     line-height: 1.6;
 }
 
@@ -104,8 +107,8 @@
 
 .introduction-feature-item h3 {
     font-size: 25px;
-    font-weight: bold;
-    color: #222;
+    font-weight: 500;
+    color: #a36e29;
 }
 
 .introduction-feature-item p {
@@ -126,6 +129,8 @@
     display: block; /* Ensure button takes full width */
     margin: 20px auto 0; /* Center button horizontally */
     text-align: left; /* Align text inside button to the left */
+    text-decoration: none; /* Add this to remove underline */
+
 }
 
 .introduction-about-btn:hover {
