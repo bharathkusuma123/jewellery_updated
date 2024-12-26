@@ -9,6 +9,7 @@ import about4 from './Images/Ethical Leadership Commitment.jpg';
 import about5 from './Images/Impacting Society.jpg';
 import about6 from './Images/visionimg.jpg';
 import web from './Images/websitebanner.png';
+import last_img from './Images/websitebanner2.png'
 
 
 
@@ -188,16 +189,19 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <div className="sec-5-cta-section">
-        {/* <h2 className="sec-5-cta-title">Inspired by our legacy and vision?</h2>
-        <p className="sec-5-cta-subtitle">Join us on our journey.</p>
-        <div className="sec-5-cta-buttons">
-          <button className="sec-5-cta-button">Explore Our Corporate Ventures</button>
-          <button className="sec-5-cta-button">Learn About Our Brands</button>
-          <button className="sec-5-cta-button">Read Our Founding Story</button>
-          <button className="sec-5-cta-button">Contact Us</button> */}
-        {/* </div> */}
-      </div>
+      {/* <div className="sec-5-cta-section">
+      <img 
+        src={{last_img}} 
+        alt="Website Banner" />
+      
+      </div> */}
+       <section className="lus_banner-section">
+      <img 
+        src={require('./Images/websitebanner2.png')} 
+        alt="Website Banner" 
+        className="lus_banner-image" 
+      />
+    </section>
 
 
 

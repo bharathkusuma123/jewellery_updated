@@ -43,6 +43,7 @@
   .ab_responsive-image {
     margin-top: 20px;
     border-radius: 2px;
+    height: 270px;
    
 }
 .sec-1-banner-section {
@@ -147,11 +148,13 @@
 
 .ab_responsive-image {
   width: 100%; /* Ensures the image spans the container's width */
-  height: auto; /* Maintains the aspect ratio */
-  border-radius: 10px; /* Adds rounded corners */
+  height: 473px; /* Maintains the aspect ratio */
+  border-radius: 2px; /* Adds rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
   margin: 0 auto; /* Centers the image */
   display: block; /* Ensures no inline space around the image */
+  margin-top: 10px;
+
 }
 
 
@@ -725,7 +728,7 @@
 
 
 
-.sec-5-cta-section {
+/* .sec-5-cta-section {
   background-image: url('./Images/websitebanner2.png');
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -733,8 +736,54 @@
   padding: 2rem;
   margin: 2rem auto;
   height: 300px;
-  /* max-width: 800px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+
+.lus_banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  height: 300px; /* Adjust height as needed */
+  background-color: #f9f9f9; /* Optional background color */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lus_banner-image {
+  width: 100%;
+  height: 360px;
+  border-radius: 2px; /* Match the section's rounded corners */
+  object-fit: cover; /* Ensures the image scales properly */
+}
+
+
+/* Tablet view (e.g., iPads) */
+@media (max-width: 768px) {
+  .lus_banner-section {
+    height: 250px; /* Reduce height for tablets */
+  }
+
+  .lus_banner-image {
+    border-radius: 6px; /* Slightly smaller corners for smaller devices */
+    height: 250px; 
+  }
+}
+
+/* Mobile view (e.g., phones) */
+@media (max-width: 480px) {
+  .lus_banner-section {
+    height: 200px; /* Reduce height further for mobile devices */
+    margin: 1rem; /* Reduce margin for smaller screens */
+  }
+
+  .lus_banner-image {
+    border-radius: 4px; /* Smaller corners for compact view */
+    height: 200px;
+    width: 109%;
+  }
 }
 
 .sec-5-cta-title {

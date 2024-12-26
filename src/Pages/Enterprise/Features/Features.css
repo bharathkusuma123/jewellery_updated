@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #fff; 
+    /* background-color:     #edca9c; */
+    background: linear-gradient(145deg, #fffaf0, #fdf6e4); /* Subtle gold theme */
+
+
   }
   
   .choose-us-content {

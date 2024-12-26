@@ -1,7 +1,7 @@
 /* Ensure the image fills the width of the viewport */
 .img1 {
     width: 100%;
-    height: 400px;
+    height: 473px;
     margin-top: 84px;
   }
   
@@ -130,6 +130,8 @@
     margin: 20px auto 0; /* Center button horizontally */
     text-align: left; /* Align text inside button to the left */
     text-decoration: none; /* Add this to remove underline */
+    margin-top: -9px;
+    margin-bottom: 10px;
 
 }
 

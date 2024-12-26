@@ -261,8 +261,10 @@
     }
   
     .navbar-logo-img {
-    height: 80px;
-      margin-left: 15px;
+        height: 84px;
+        margin-left: 15px;
+        width: 67px;
+    
     }
   
     .navbar-button.primary, .navbar-button.secondary {
