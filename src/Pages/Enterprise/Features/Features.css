@@ -97,6 +97,7 @@
   
     .why-choose-us h1 {
       font-size: 2em; /* Adjust text size */
+      font-weight: 600;
     }
   
     .why-choose-us p {
@@ -105,11 +106,23 @@
   
     .choose-feature-item h3 {
       font-size: 2em; /* Adjust features text size */
+      font-weight: 600;
+
     }
   
     .choose-feature-item p {
       font-size: 20px;
     }
+
+  
+  .why-choose-us h4 {
+      font-size: 30px;
+      color: #a36e29;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+  }
   }
   
   /* Mobile view (max-width 768px) */

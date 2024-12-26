@@ -92,7 +92,7 @@
 /* Tablet (iPad) View */
 @media (min-width: 601px) and (max-width: 1024px) {
   .home-call-to-action-heading {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .home-call-to-action-cards {

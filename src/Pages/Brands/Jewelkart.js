@@ -68,8 +68,11 @@ function Jewels() {
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>User Experience</h4>
-          <p>
+          {/* <p>
             Enjoy a seamless shopping experience with features like virtual try-ons and online customization tools.
+          </p> */}
+          <p>
+          Experience the ultimate in convenience and innovation with our seamless shopping experience, designed to cater to your every need. Explore a world of possibilities with advanced features like virtual try-ons, allowing you to visualize your perfect piece with ease, and cutting-edge online customization tools that empower you to create designs that reflect your unique style.
           </p>
         </div>
         <div className="bro-detail-image">
@@ -84,7 +87,10 @@ function Jewels() {
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Innovations & Product Launches</h4>
-          <p>Discover our newest collections and online-exclusive designs. Always pushing the boundaries of jewelry design.</p>
+          {/* <p>Discover our newest collections and online-exclusive designs. Always pushing the boundaries of jewelry design.</p> */}
+          <p>
+          Discover the allure of our newest collections and online-exclusive designs, where creativity meets craftsmanship in its purest form. Each piece is a testament to our commitment to innovation, always pushing the boundaries of jewelry design to bring you something truly extraordinary. 
+          </p>
 
         </div>
 
@@ -93,8 +99,10 @@ function Jewels() {
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Success Stories</h4>
-          <p>"I found my dream bridal set on Sadashri Jewelkart. The convenience and variety were unmatched!" - Priya S.</p>
-
+          {/* <p>"I found my dream bridal set on Sadashri Jewelkart. The convenience and variety were unmatched!" - Priya S.</p> */}
+<p>
+Sadashri Jewelkart truly exceeded my expectations with their exceptional selection and dedication to quality.  It’s a moment I’ll treasure forever!" - Priya S.
+</p>
         </div>
         <div className="bro-detail-image">
           <img src={busi} alt="Store Experience" />

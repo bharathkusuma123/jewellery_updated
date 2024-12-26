@@ -107,6 +107,7 @@
       text-align: justify;
       margin-left: -27px;
       padding-right: 34px;
+      margin-top: -40px;
     }
     .introduction-title {
       font-size: 36px; /* Adjust title size for tablet */
@@ -114,12 +115,14 @@
   
     .introduction-text {
       font-size: 18px; /* Adjust text size for tablet */
+      margin-left: -20px;
+      width: 106%;
     }
     .introduction-image {
-      width: 103%;
+      width: 115%;
       border-radius: 10px;
       height: 360px;
-      margin-left: -111px;
+      margin-left: -100px;
   }
   }
   

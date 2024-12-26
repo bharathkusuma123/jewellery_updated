@@ -146,6 +146,7 @@
         
         .enterprise-header h1 {
           font-size: 2.4rem;
+          font-weight: 600;
         }
       
         .enterprise-header p {
@@ -154,6 +155,7 @@
       
         .enterprise-journey h2 {
           font-size: 2rem;
+          font-weight: 600;
         }
       
         .enterprise-journey p {
@@ -162,6 +164,7 @@
       
         .enterprise-principles h3 {
           font-size: 1.8rem;
+          font-weight: 600;
         }
       
         .enterprise-principles ul {

@@ -71,12 +71,38 @@
   color: #a36e29;
   margin-bottom: 0.8rem;
   font-weight: 700;
+  margin-top: -10px;
 }
 .image-section img {
   width: 559px;
   height: 400px;
   margin-left: -40px;
   margin-bottom: 25px;
+}
+
+.sec-3-container
+ .sec-3-section-title {
+  font-size: 1.8rem;
+  color: #a36e29;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.sec-4-container
+.sec-4-vision-title {
+  font-size: 2rem;
+  color: #a36e29;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.sec-4-container
+.sec-4-pillars-title {
+  font-size: 2rem;
+  color: #a36e29;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
 }
 
 }
@@ -196,6 +222,8 @@
 
   .legacy-title {
     font-size: 1.8rem;
+    font-weight: 600;
+
   }
 
   .legacy-introduction {
@@ -208,6 +236,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
+    margin-bottom: -37px;
 }
 
   
@@ -273,6 +302,8 @@
       
           .sec-2-section-title {
             font-size: 1.8rem;
+            font-weight: 600;
+
           }
       
           .sec-2-section-subtitle {
@@ -374,6 +405,8 @@
     margin-left: -40px;
     margin-bottom: 25px;
   }
+
+  
 }
 
 /* Responsive Styles for Mobile (Phones) */
@@ -424,7 +457,7 @@
   text-align: center;
 }
 
-.sec-3-generational-wisdom .sec-3-section-title {
+.sec-3-section-title {
   font-size: 2.5rem;
   color:#a36e29; 
   margin-bottom: 1rem;
@@ -643,8 +676,8 @@
   }
 
   .sec-4-pillar {
-    width: 100%;
-    margin-left: -16px;
+    width: 95%;
+    margin-left: 1px;
   }
 }
 

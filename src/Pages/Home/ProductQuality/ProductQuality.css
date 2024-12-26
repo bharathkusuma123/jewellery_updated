@@ -97,7 +97,7 @@
 
     .product-quality-heading-card {
       text-align: center;
-      font-size: 25px;
+      font-size: 28px;
       color: #a36e29;
   }
   }
@@ -132,7 +132,7 @@
   
   @media (max-width: 768px) {
     .product-quality-heading {
-      font-size: 1.8em;
+      font-size: 2em;
       color:#a36e29 ;
 
     }
