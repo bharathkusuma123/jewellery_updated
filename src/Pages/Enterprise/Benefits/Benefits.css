@@ -236,4 +236,34 @@ body {
     margin-bottom: 10px;
     font-weight: 500;
 }
+
+
+.benefits-container {
+  padding: 20px;
+  margin: auto;
+  margin-top: -55px;
+}
+
+
+.foundation-section h2 {
+  font-size: 28px;
+  color: #a36e29;
+  margin-bottom: 15px;
+  font-weight: 500;
+  margin-top: -56px;
+}
+.portfolio-section h2 {
+  font-size: 28px;
+  color: #a36e29;
+  margin-bottom: 20px;
+  font-weight: 500;
+  margin-top: -35px;
+}
+
+.portfolio-card h3 {
+  color: #a36e29;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
 }

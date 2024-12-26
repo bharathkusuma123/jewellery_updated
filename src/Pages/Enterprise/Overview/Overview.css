@@ -283,7 +283,7 @@
     }
 
     .introduction-about-btn {
-        width: 100%;
+        width: 85%;
         max-width: 300px;
         margin: 0 auto;
     }
@@ -297,6 +297,27 @@
     line-height: 1.6;
     width: 155%;
     margin-left: -52px;
+}
+
+
+
+.introduction-feature-item h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a36e29;
+    margin-top: -24px;
+    margin-bottom: -12px;
+}
+
+
+.introduction-content h1 {
+    font-size: 25px;
+    color: #a36e29;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    width: 125%;
+    margin-left: -25px;
 }
 }
 

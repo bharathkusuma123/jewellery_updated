@@ -116,8 +116,8 @@
         }
       
         .enterprise-principles h3 {
-          font-size: 1.6rem;
-        }
+          font-size: 2rem;
+          margin-top: 5px;        }
       
         .enterprise-principles ul {
           font-size: 1rem;
@@ -127,9 +127,12 @@
       @media (max-width: 767px) {
         .enterprise-header h1 {
           font-size: 2rem;
+          margin-top: 0px;
         }
         .enterprise-journey h2 {
           font-size: 2rem;
+          margin-top: -50px;
+
         }
         .enterprise-container {
           max-width: 1200px;
