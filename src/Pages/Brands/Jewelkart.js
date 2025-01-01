@@ -8,10 +8,10 @@ import Specialcolimg from './Images/customized.png'
 import storeimg from "./Images/storeimage.webp"
 import achimg from "./Images/achieveimage.jpg"
 import custimg from "./Images/custestimg.webp"
-import userexp from './Images/userexpimag.jpg'
-import innov from './Images/innovateimg.jpg'
-import busi from './Images/successsimg.jpg'
-import home1 from './Images/websitehome2.png'
+import userexp from './Images/user-exp-img-001.avif'
+import innov from './Images/innovaimg.webp'
+import busi from './Images/succesimage3.jpg'
+import home1 from './animations/Animation - 1735698265338.gif'
 
 
 
@@ -32,6 +32,11 @@ function Jewels() {
 
 <div className="image-container">
     <img src={home1} alt="Home" className="responsive-image" />
+    <div className="sec-1-banner-overlay-jewels">
+          {/* <h1 className="sec-1-banner-heading">A Legacy of Vision, Wisdom, and Responsibility</h1> */}
+          <h1 className="sec-1-banner-heading">Sadashri Jewelkart-Online Platform</h1>
+
+        </div>
   </div>
 
       {/* <div className="banner">

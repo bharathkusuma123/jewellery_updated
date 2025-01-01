@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArchway, faPalette, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import about1 from './Images/grandma.png'
 import about2 from './Images/PURPOSE SAD WEB.png';
-import about3 from './Images/Empowering Communities.jpg';
+import about3 from './Images/emp-com-img.jpg';
 import about4 from './Images/Ethical Leadership Commitment.jpg';
 import about5 from './Images/Impacting Society.jpg';
 import about6 from './Images/visionimg.jpg';
-import web from './Images/websitebanner.png';
+import web from './animations/Animation - 1735698265338.gif';
 import last_img from './Images/websitebanner2.png'
 
 
@@ -24,6 +24,11 @@ const AboutUs = () => {
 
       <div className="ab_image-container">
         <img src={web} alt="Home" className="ab_responsive-image" />
+        <div className="sec-1-banner-overlay">
+          {/* <h1 className="sec-1-banner-heading">A Legacy of Vision, Wisdom, and Responsibility</h1> */}
+          <h1 className="sec-1-banner-heading">Purpose</h1>
+
+        </div>
       </div>
 
       {/* 
@@ -195,13 +200,18 @@ const AboutUs = () => {
         alt="Website Banner" />
       
       </div> */}
-       <section className="lus_banner-section">
+
+
+
+
+
+       {/* <section className="lus_banner-section">
       <img 
-        src={require('./Images/websitebanner2.png')} 
+        src={require('./Images/lastbanabout.jpg')} 
         alt="Website Banner" 
         className="lus_banner-image" 
       />
-    </section>
+    </section> */}
 
 
 

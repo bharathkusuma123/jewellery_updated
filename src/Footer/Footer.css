@@ -68,7 +68,7 @@
     .footermainsection{
         display: flex;
         margin-left: 390px;
-        margin-top: -410px;
+        margin-top: -187px;
     }
     
     .footer-root {
@@ -97,7 +97,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -60px;
+        margin-top: 10px;
       }
       
       .footer-section {

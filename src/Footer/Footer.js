@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import sdlogo from '../../src/Navbar/logo/sadashri parent logo123.jpg'
 
 
 const Footer = () => {
@@ -11,13 +12,13 @@ const Footer = () => {
           {/* <div className="mainfoogterdiv"> */}
           <div className="footer-logo">
             <img
-              src="https://stage.sadashrijewelkart.com/assets/logo_dark.png"
+              src={sdlogo}
               alt="Sadashri Logo"
-              width="300"
-              height="200"
+              width="150"
+              height="150"
             />
           </div>
-          <div className="social-container">
+          {/* <div className="social-container">
             <a href="https://www.instagram.com/sadashrijewelkart_official" className="social-link" target="_blank" rel="noopener noreferrer">
               <img src={'https://cdn-icons-png.flaticon.com/512/5968/5968776.png'} alt="Instagram" />
               <span>sadashrijewelkart_official</span>
@@ -30,7 +31,7 @@ const Footer = () => {
               <img src={'https://static.vecteezy.com/system/resources/previews/011/998/173/non_2x/youtube-icon-free-vector.jpg'} alt="YouTube" />
               <span>Sadāshrī Jewelkart</span>
             </a>
-          </div>
+          </div> */}
           {/* </div> */}
           <div className='footermainsection'>
             <div className="footer-section">

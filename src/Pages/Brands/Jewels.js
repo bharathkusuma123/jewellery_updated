@@ -5,10 +5,10 @@ import engring from './Images/keyofferings1.png'
 import Necklace from './Images/keyofferings2.png'
 import CustomPiece from './Images/keyofferings3.png'
 import Specialcolimg from './Images/keyofferings4.png'
-import storeimg from "./Images/storeimage.webp"
-import achimg from "./Images/achieveimage.jpg"
-import custimg from "./Images/custestimg.webp"
-import home from './Images/websitehome.png'
+import storeimg from "./Images/new-img02.jpg"
+import achimg from "./Images/new-img01.jpg"
+import custimg from "./Images/testimg007.jpg"
+import home from './animations/Animation - 1735698265338.gif'
 
 
 
@@ -28,6 +28,11 @@ function Jewels() {
     <div style={{ paddingTop: "60px" }}>
     <div className="image-container">
     <img src={home} alt="Home" className="responsive-image" />
+    <div className="sec-1-banner-overlay-jewels">
+          {/* <h1 className="sec-1-banner-heading">A Legacy of Vision, Wisdom, and Responsibility</h1> */}
+          <h1 className="sec-1-banner-heading">Sadashri Jewels-Our Store</h1>
+
+        </div>
   </div>
 
     

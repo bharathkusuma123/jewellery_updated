@@ -24,7 +24,7 @@ const HomeCallToAction = () => {
             className="home-call-to-action-button"
       
           >
-            Learn More
+            Learn More...
           </a>
         </div>
         <div
@@ -37,7 +37,7 @@ const HomeCallToAction = () => {
             className="home-call-to-action-button"
         
           >
-            Learn More
+            Learn More...
           </a>
         </div>
         <div
@@ -50,7 +50,7 @@ const HomeCallToAction = () => {
             className="home-call-to-action-button"
        
           >
-            Shop Now
+            Shop Now...
           </a>
         </div>
         <div
@@ -65,7 +65,7 @@ const HomeCallToAction = () => {
             className="home-call-to-action-button"
             
           >
-            Visit Now
+            Visit Now...
           </a>
         </div>
       </div>

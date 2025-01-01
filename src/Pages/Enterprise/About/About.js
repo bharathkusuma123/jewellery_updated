@@ -1,11 +1,18 @@
 import React from "react";
 import "./About.css";
+import sban from '../animations/Animation - 1735698265338.gif'
 
 
 const About = () => {
   return (
     <div>
-      <img className='img1' src="https://www.kalyanjewellers.net/images/banners/gold_banner.jpg" alt="Banner" />
+      <div>
+      <img className='img12' src={sban} alt="Banner" />
+      <div className="sec-1-banner-overlay-jewels">
+          <h1 className="sec-1-banner-heading">Enterprise</h1>
+
+        </div>
+      </div>
       <section className="enterprise-section">
         <div className="enterprise-container">
           <div className="enterprise-header">

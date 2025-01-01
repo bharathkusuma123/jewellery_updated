@@ -1,8 +1,8 @@
 import React from 'react';
 import './Benefits.css';
-import about3 from '../Images/product development.png';
+import about3 from '../Images/productdevimg.webp';
 import about4 from '../Images/strategic partnership.png';
-import about5 from '../Images//brand investment.png';
+import about5 from '../Images//brandinvimg.jpg';
 
 function Benefits() {
   return (
