@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer'; // Import Intersection Observer hook
 // import 'animate.css'; // Commented out animation library import
 import './Introduction.css';
-import IntroImage from './Images/What We Do.jpg';
+import IntroImage from './Images/whatwedonew.png';
 
 const Introduction = () => {
   const { ref, inView } = useInView({

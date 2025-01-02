@@ -3,10 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import 'animate.css'; // Import Animate.css styles
 import './Hero.css'; // Import custom styles
-import banner1 from '../Hero/Images/1.png';
-import banner2 from '../Hero/Images/2.png';
-import banner3 from '../Hero/Images/3.png';
-import banner4 from '../Hero/Images/4.png';
+import banner1 from '../Hero/Images/CraftingTimelessConnections.png';
+import banner2 from '../Hero/Images/Rooted in Tradition, Inspired by Innovation.png';
+import banner3 from '../Hero/Images/ACommitmenttoSustainabilityandExcellencenew.png';
+import banner4 from '../Hero/Images/EmpoweringDreams,BuildingLegacies.png';
 
 const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0); // Track the active slide index

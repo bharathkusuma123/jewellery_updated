@@ -3,10 +3,10 @@ import './AboutUs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArchway, faPalette, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import about1 from './Images/grandma.png'
-import about2 from './Images/PURPOSE SAD WEB.png';
-import about3 from './Images/emp-com-img.jpg';
-import about4 from './Images/Ethical Leadership Commitment.jpg';
-import about5 from './Images/Impacting Society.jpg';
+import about2 from './Images/ourlagecynew.png';
+import about3 from './Images/EmpoweringCommunitiesnew.png';
+import about4 from './Images/EthicalLeadershipCommitmentnew .png';
+import about5 from './Images/ImpactingSocietynew.png';
 import about6 from './Images/visionimg.jpg';
 import web from './animations/Animation - 1735698265338.gif';
 import last_img from './Images/websitebanner2.png'

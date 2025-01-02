@@ -364,6 +364,8 @@
 /* Content box with text */
 .bcontent-box {
   flex: 1;
+  height: 320px;
+
   padding: 30px;
   background-color: #ffffff;
   border-radius: 12px;
@@ -412,6 +414,8 @@
 .bimage-box {
   flex: 1;
   display: flex;
+  height: 350px;
+
   justify-content: center;
   align-items: center;
   border-radius: 12px;
