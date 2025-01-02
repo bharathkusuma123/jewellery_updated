@@ -26,16 +26,16 @@ function Jewels() {
   ];
   return (
     <div style={{ paddingTop: "60px" }}>
-    <div className="image-container">
-    <img src={home} alt="Home" className="responsive-image" />
-    <div className="sec-1-banner-overlay-jewels">
+      <div className="image-container">
+        <img src={home} alt="Home" className="responsive-image" />
+        <div className="sec-1-banner-overlay-jewels">
           {/* <h1 className="sec-1-banner-heading">A Legacy of Vision, Wisdom, and Responsibility</h1> */}
           <h1 className="sec-1-banner-heading">Sadashri Jewels-Our Store</h1>
 
         </div>
-  </div>
+      </div>
 
-    
+
 
       <div className='div-icon'>
 
@@ -57,13 +57,16 @@ function Jewels() {
         ))}
       </div>
 
-      <section className="storebro-experience-section">
+
+      {/* section-1 */}
+
+      {/* <section className="storebro-experience-section">
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Store Experience</h4>
-          {/* <p>
+          <p>
             A luxurious ambiance with personalized service and exceptional customer care—an experience tailored just for you.
-          </p> */}
+          </p>
           <p>Immerse yourself in a world of luxurious ambiance, where every detail is meticulously curated to create an environment of elegance and comfort. Experience the pinnacle of personalized service, where your unique preferences are anticipated and fulfilled with care.
 
           </p>
@@ -71,36 +74,85 @@ function Jewels() {
         <div className="bro-detail-image">
           <img src={storeimg} alt="Store Experience" />
         </div>
+      </section> */}
+
+      <section className="bexperience-section">
+        <div className="bcontent-box">
+          <FaStore className="bicon" />
+          <h4 className="bsection-heading">Store Experience</h4>
+          <p className="bsection-description">
+            Immerse yourself in a world of luxurious ambiance, where every detail is meticulously curated to create an environment of elegance and comfort. Experience the pinnacle of personalized service, where your unique preferences are anticipated and fulfilled with care.
+          </p>
+        </div>
+        <div className="bimage-box">
+          <img className="bexperience-image" src={storeimg} alt="Store Experience" />
+        </div>
       </section>
 
-      <section className="storebro-experience-section">
-      <div className="bro-detail-image">
+
+      {/* section-2 */}
+
+
+      {/* <section className="storebro-experience-section">
+        <div className="bro-detail-image">
           <img src={achimg} alt="Store Experience" />
         </div>
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Achievements & Milestones</h4>
-          {/* <p>Celebrating our anniversary with recognition for excellence and milestones in jewelry craftsmanship.</p> */}
-<p>Join us in celebrating our anniversary—a remarkable journey marked by recognition for excellence and the achievement of significant milestones in the art of jewelry craftsmanship. From timeless designs to innovative creations, we honor the dedication, artistry, and passion that have defined our legacy.
+          <p>Celebrating our anniversary with recognition for excellence and milestones in jewelry craftsmanship.</p>
+          <p>Join us in celebrating our anniversary—a remarkable journey marked by recognition for excellence and the achievement of significant milestones in the art of jewelry craftsmanship. From timeless designs to innovative creations, we honor the dedication, artistry, and passion that have defined our legacy.
 
-</p>
+          </p>
         </div>
-      
+
+      </section> */}
+
+
+<section className="bexperience-section">
+      <div className="bimage-box">
+          <img className="bexperience-image" src={achimg} alt="Store Experience" />
+        </div>
+        <div className="bcontent-box">
+          <FaStore  className="bicon" />
+          <h4 className="bsection-heading">Achievements & Milestones</h4>
+          <p className="bsection-description">
+          Join us in celebrating our anniversary—a remarkable journey marked by recognition for excellence and the achievement of significant milestones in the art of jewelry craftsmanship. From timeless designs to innovative creations, we honor the dedication, artistry, and passion that have defined our legacy.
+          </p>
+        </div>
+       
       </section>
-      <section className="storebro-experience-section">
+
+
+      {/* section-3 */}
+
+      {/* <section className="storebro-experience-section">
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Customer Testimonials</h4>
-          {/* <p>"Sadashri Jewels provided me with the perfect engagement ring! The service was incredible!" - Emily R.</p> */}
-<p>
-Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care,
-</p>
+          <p>"Sadashri Jewels provided me with the perfect engagement ring! The service was incredible!" - Emily R.</p>
+          <p>
+            Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care,
+          </p>
         </div>
         <div className="bro-detail-image">
           <img src={custimg} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
 
+
+<section className="bexperience-section">
+        <div className="bcontent-box">
+          <FaStore className="bicon" />
+          <h4 className="bsection-heading">Customer Testimonials</h4>
+          <p className="bsection-description">
+          Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care.
+          </p>
+        </div>
+        <div className="bimage-box">
+          <img className="bexperience-image" src={custimg} alt="Store Experience" />
+        </div>
+      </section>
 
     </div>
   )

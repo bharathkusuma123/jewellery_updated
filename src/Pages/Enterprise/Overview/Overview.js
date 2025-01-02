@@ -2,7 +2,7 @@ import React from 'react';
 import './Overview.css';
 import { Link } from 'react-router-dom';
 import img1 from '../Images/RCEIR-IMG.jpg'
-import img2 from '../Images/EXPERT-IMG.jpg'
+import img2 from '../Images/smallimage001.webp'
 import img3 from '../Images/personalisedimg.webp'
 
 function Overview() {

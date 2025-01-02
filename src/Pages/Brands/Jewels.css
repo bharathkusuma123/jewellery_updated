@@ -95,6 +95,9 @@
       .bro-detail-box p {
         font-size: 18px;
         color: #555;
+        text-align: justify;
+        width: 94%;
+        margin-left: 16px;
       }
       
       .bro-detail-image {
@@ -336,3 +339,211 @@
         display: block; /* Ensures no inline space around the image */
       }
       
+
+
+
+
+
+
+
+
+
+
+      /* Overall section styling */
+.bexperience-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);  */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern touch */
+}
+
+/* Content box with text */
+.bcontent-box {
+  flex: 1;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.bcontent-box:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+
+.bicon {
+  font-size: 2.5rem;
+  color: #a36e29;
+  transition: color 0.3s ease;
+  display: block; /* Make the icon a block-level element */
+  margin: 0 auto; /* Center the icon horizontally */
+}
+
+.bicon:hover {
+  color: #a36e29;
+  /* Icon color change on hover */
+}
+
+/* Heading styling */
+.bsection-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a36e29;
+  margin-top: 15px;
+  text-align: center; /* Center-align heading */
+}
+
+/* Paragraph styling */
+.bsection-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 20px;
+  line-height: 1.8;
+  text-align: justify; /* Center-align the text */
+}
+
+/* Image box */
+.bimage-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  overflow: hidden; /* Ensure no part of the image overflows the container */
+  transition: transform 0.3s ease; /* Smooth hover effect for the image container */
+}
+
+.bimage-box:hover {
+  transform: scale(1.05); /* Slight zoom on hover for the image */
+}
+
+/* Image styling */
+.bexperience-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px; /* Rounded corners */
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on image */
+  transition: transform 0.3s ease-in-out;
+}
+
+.bexperience-image:hover {
+  transform: scale(1.1); /* Image zooms slightly on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main section container */
+.kexperience-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  /* background-color: #f5f7fa;  */
+}
+
+/* Card container */
+.kexperience-card {
+  display: flex;
+  flex-direction: row; /* Place content and image side by side */
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+}
+
+.kexperience-card:hover {
+  transform: translateY(-10px); /* Lift the card slightly on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Deep shadow for hover effect */
+}
+
+/* Content area of the card */
+.kcard-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Icon styling */
+.kicon {
+  font-size: 2.5rem;
+  color: #a36e29;
+  transition: color 0.3s ease;
+align-self: center;
+}
+
+.kicon:hover {
+  color: #a36e29;
+  /* Icon color change on hover */
+}
+
+/* Heading styling */
+.ksection-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a36e29;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Description text styling */
+.ksection-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Image area of the card */
+.kcard-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.kexperience-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for the image */
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the image */
+}
+
+.kexperience-image:hover {
+  transform: scale(1.05); /* Slight zoom on image hover */
+}
