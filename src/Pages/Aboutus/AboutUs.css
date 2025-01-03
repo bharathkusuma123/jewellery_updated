@@ -669,7 +669,6 @@
   height: 200px; /* Adjust height as needed */
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 1rem; /* Space between image and text */
 }
 
 /* Tablet View */
