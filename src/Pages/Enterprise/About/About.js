@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import sban from '../animations/Animation - 1735698265338.gif'
+import sban from '../Images/Enterprisenew.png'
 
 
 const About = () => {

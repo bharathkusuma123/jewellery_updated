@@ -8,7 +8,7 @@ import about3 from './Images/EmpoweringCommunitiesnew.png';
 import about4 from './Images/EthicalLeadershipCommitmentnew .png';
 import about5 from './Images/ImpactingSocietynew.png';
 import about6 from './Images/visionimg.jpg';
-import web from './animations/Animation - 1735698265338.gif';
+import web from './Images/Purpose.png';
 import last_img from './Images/websitebanner2.png'
 
 

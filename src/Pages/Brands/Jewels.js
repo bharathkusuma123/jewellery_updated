@@ -5,10 +5,10 @@ import engring from './Images/keyofferings1.png'
 import Necklace from './Images/keyofferings2.png'
 import CustomPiece from './Images/keyofferings3.png'
 import Specialcolimg from './Images/keyofferings4.png'
-import storeimg from "./Images/new-img02.jpg"
-import achimg from "./Images/new-img01.jpg"
-import custimg from "./Images/testimg007.jpg"
-import home from './animations/Animation - 1735698265338.gif'
+import storeimg from "./Images/Store Experience.png"
+import achimg from "./Images/Achievements & Milestones.png"
+import custimg from "./Images/Customer Testimonials.png"
+import home from './Images/Sadashri Jewels-Our Store.png'
 
 
 

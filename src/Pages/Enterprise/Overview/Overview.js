@@ -1,9 +1,9 @@
 import React from 'react';
 import './Overview.css';
 import { Link } from 'react-router-dom';
-import img1 from '../Images/RCEIR-IMG.jpg'
-import img2 from '../Images/smallimage001.webp'
-import img3 from '../Images/personalisedimg.webp'
+import img1 from '../Images/Running the Company with Ethics, Integrity, and Responsibility.png'
+import img2 from '../Images/Expert Craftsmanship.png'
+import img3 from '../Images/Personalized Designs.png'
 
 function Overview() {
   return (

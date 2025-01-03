@@ -11,7 +11,7 @@ import custimg from "./Images/custestimg.webp"
 import userexp from './Images/User Experience.png'
 import innov from './Images/Innovations & Product Launches.png'
 import busi from './Images/succesimage3.jpg'
-import home1 from './animations/Animation - 1735698265338.gif'
+import home1 from './Images/Sadashri Jewelkart-Online Platform.png'
 
 
 
