@@ -85,10 +85,10 @@ const ContactForm = () => {
               <span>sadashrijewelkart.com</span>        </p>
             <p>
               <FontAwesomeIcon icon={faMapMarkerAlt} />
-              <span>Building No./Flat No.: NO 1323/1324, 16TH B CROSS HOUSING BOARD COLONY EWS 3RD PHASE, Yelahanka New Town, Bengaluru, Karnataka-560064</span>
+              <span>Building No./Flat No.: NO 1323/1324, 16th B Cross Housing Board Colony EWS 3rd Phase, Yelahanka New Town, Bengaluru, Karnataka-560064</span>
             </p>
           </div>
-          <div className="cont-social-container">
+          {/* <div className="cont-social-container">
             <a href="https://www.instagram.com/sadashrijewelkart_official" className="cont-social-link" target="_blank" rel="noopener noreferrer">
               <img src={'https://cdn-icons-png.flaticon.com/512/5968/5968776.png'} alt="Instagram" />
               <span>sadashrijewelkart_official</span>
@@ -101,7 +101,7 @@ const ContactForm = () => {
               <img src={'https://static.vecteezy.com/system/resources/previews/011/998/173/non_2x/youtube-icon-free-vector.jpg'} alt="YouTube" />
               <span>Sadāshrī Jewelkart</span>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="form-wrapper">
           <form>

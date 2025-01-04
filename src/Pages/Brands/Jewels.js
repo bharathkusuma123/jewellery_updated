@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import './Jewels.css'
 import { FaGem, FaStore, FaLaptop } from 'react-icons/fa';  // Importing icons from react-icons
 import engring from './Images/keyofferings1.png'
@@ -24,6 +24,40 @@ function Jewels() {
     { title: "Special Collections", image: Specialcolimg, link: "#" },
 
   ];
+
+
+
+  const content = [
+    {
+      heading: "Customer Testimonials",
+      paragraph:        "Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care."
+      
+    },
+    {
+      heading: "Exceptional Craftsmanship",
+      paragraph:        "I purchased a beautiful necklace from Sadashri Jewels, and I couldn’t be happier. The attention to detail is impeccable, and I receive compliments on it every time I wear it!",
+      
+    },
+    {
+      heading: "A Wonderful Experience",
+      paragraph:         "From the moment I entered the store, I felt valued and appreciated. The team guided me through every step to select the perfect earrings. Highly recommend!",
+
+    },
+    {
+      heading: "Lifetime Memories",
+      paragraph:        "I gifted a diamond ring to my wife, and the joy it brought her was indescribable. Thank you, Sadashri Jewels, for creating such memorable pieces.",
+    },
+  ];
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % content.length);
+    }, 3000); // Change slide every 3 seconds
+    return () => clearInterval(interval);
+  }, [content.length]);
+
   return (
     <div style={{ paddingTop: "60px" }}>
       <div className="image-container">
@@ -109,18 +143,18 @@ function Jewels() {
       </section> */}
 
 
-<section className="bexperience-section">
-      <div className="bimage-box">
+      <section className="bexperience-section">
+        <div className="bimage-box">
           <img className="bexperience-image" src={achimg} alt="Store Experience" />
         </div>
         <div className="bcontent-box">
-          <FaStore  className="bicon" />
+          <FaStore className="bicon" />
           <h4 className="bsection-heading">Achievements & Milestones</h4>
           <p className="bsection-description">
-          Join us in celebrating our anniversary—a remarkable journey marked by recognition for excellence and the achievement of significant milestones in the art of jewelry craftsmanship. From timeless designs to innovative creations, we honor the dedication, artistry, and passion that have defined our legacy.
+            Join us in celebrating our anniversary—a remarkable journey marked by recognition for excellence and the achievement of significant milestones in the art of jewelry craftsmanship. From timeless designs to innovative creations, we honor the dedication, artistry, and passion that have defined our legacy.
           </p>
         </div>
-       
+
       </section>
 
 
@@ -141,18 +175,35 @@ function Jewels() {
       </section> */}
 
 
-<section className="bexperience-section">
+      {/* <section className="bexperience-section">
         <div className="bcontent-box">
           <FaStore className="bicon" />
           <h4 className="bsection-heading">Customer Testimonials</h4>
           <p className="bsection-description">
-          Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care.
+            Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care.
           </p>
         </div>
         <div className="bimage-box">
           <img className="bexperience-image" src={custimg} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
+      <div className="carousel-layout">
+      <div className="left-box">
+        <div className="slide">
+        <FaStore className="bicon" />
+
+          <h2>{content[currentSlide].heading}</h2>
+          <p>{content[currentSlide].paragraph}</p>
+        </div>
+      </div>
+      <div className="right-box">
+        <img
+          src={custimg}
+          alt="Sample"
+          className="image"
+        />
+      </div>
+    </div>
 
     </div>
   )

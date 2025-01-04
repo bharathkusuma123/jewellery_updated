@@ -61,9 +61,15 @@
     
     /* Responsive Design */
     
+    .footer-logo img{
+      width: 170px;
+      height: 100px;
+    }
     
-    
-    
+    .footer1-logo{
+      width: 100px;
+      height: 50px;
+    }
     
     .footermainsection{
         display: flex;
@@ -80,7 +86,7 @@
       .footer-container {
         width: 80%;
         margin: auto;
-        margin-top: -45px;
+        /* margin-top: -45px; */
         margin-bottom: -30px;
       }
       

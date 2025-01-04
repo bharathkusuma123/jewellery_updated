@@ -1,7 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import sdlogo from '../../src/Navbar/logo/sadashri parent logo123.jpg'
+import sdlogo from '../../src/Navbar/logo/parent_weblink_2-removebg-preview.png'
+import footerlogo from '../Footer/Images/png-1.png'
 
 
 const Footer = () => {
@@ -14,8 +15,8 @@ const Footer = () => {
             <img
               src={sdlogo}
               alt="Sadashri Logo"
-              width="150"
-              height="150"
+              // width="180"
+              // height="150"
             />
           </div>
           {/* <div className="social-container">
@@ -47,11 +48,10 @@ const Footer = () => {
             <div className="footer-section">
               <p style={{ color: 'black', fontSize: '22px' }} className="footer-heading">Contact Details</p>
               <p className="footer-info">Building No./Flat No.: NO 1323/1324</p>
-              <p className="footer-info">Road/Street: 16TH B CROSS HOUSING BOARD COLONY EWS 3RD PHASE</p>
+              <p className="footer-info">Road/Street: 16th B Cross Housing Board Colony EWS 3rd Phase</p>
               <p className="footer-info">Phone No: 9964644424</p>
               <p className="footer-info">Locality: Yelahanka New Town</p>
               <p className="footer-info">City: Bengaluru</p>
-              <p className="footer-info">District: Bengaluru Urban</p>
               <p className="footer-info">State: Karnataka, PIN Code: 560064</p>
             </div>
           </div>
@@ -66,7 +66,11 @@ const Footer = () => {
             Copyright © 2024 SadāShri Ventures Private Limited. All rights reserved.
           </p>
           <p className="last-footer-design">
-            Designed by iiiQBets.
+          Designed by <a href="https://www.iiiqbets.com/" target="_blank" rel="noopener noreferrer"> <img 
+        src={footerlogo} 
+        alt="iiiQBets Logo" 
+        className="footer1-logo" 
+      /></a>.
           </p>
         </section>
 

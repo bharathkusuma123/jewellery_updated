@@ -73,7 +73,7 @@ function Jewels() {
 
       <section className="bexperience-section">
         <div className="bcontent-box">
-          <FaStore  className="bicon" />
+          <FaStore className="bicon" />
           <h4 className="bsection-heading">User Experience</h4>
           <p className="bsection-description">
             Experience the ultimate in convenience and innovation with our seamless shopping experience, designed to cater to your every need. Explore a world of possibilities with advanced features like virtual try-ons, allowing you to visualize your perfect piece with ease, and cutting-edge online customization tools that empower you to create designs that reflect your unique style.
@@ -126,17 +126,17 @@ function Jewels() {
 
 
       <section className="bexperience-section">
-      <div className="bimage-box">
+        <div className="bimage-box">
           <img className="bexperience-image" src={innov} alt="Store Experience" />
         </div>
         <div className="bcontent-box">
-          <FaStore  className="bicon" />
+          <FaStore className="bicon" />
           <h4 className="bsection-heading">Innovations & Product Launches</h4>
           <p className="bsection-description">
-          Discover the allure of our newest collections and online-exclusive designs, where creativity meets craftsmanship in its purest form. Each piece is a testament to our commitment to innovation, always pushing the boundaries of jewelry design to bring you something truly extraordinary.
+            Discover the allure of our newest collections and online-exclusive designs, where creativity meets craftsmanship in its purest form. Each piece is a testament to our commitment to innovation, always pushing the boundaries of jewelry design to bring you something truly extraordinary.
           </p>
         </div>
-       
+
       </section>
 
 
@@ -162,18 +162,72 @@ function Jewels() {
       {/* section-3  */}
 
 
-      <section className="bexperience-section">
+      {/* <section className="bexperience-section">
         <div className="bcontent-box">
-          <FaStore  className="bicon" />
+          <FaStore className="bicon" />
           <h4 className="bsection-heading">Success Stories</h4>
           <p className="bsection-description">
-          Sadashri Jewelkart truly exceeded my expectations with their exceptional selection and dedication to quality.  It’s a moment I’ll treasure forever!" - Priya S.
+            Sadashri Jewelkart truly exceeded my expectations with their exceptional selection and dedication to quality.  It’s a moment I’ll treasure forever!" - Priya S.
           </p>
         </div>
         <div className="bimage-box">
           <img className="bexperience-image" src={busi} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
+      <div className="bkcontainer">
+
+        <div className="bkcontent-box">
+          <div style={{ marginTop: '20px' }} className="bkcard">
+            <FaStore className="bkicon" />
+            <h4 className="bksection-heading">Success Stories</h4>
+            <p className="bksection-description">
+              Sadashri Jewelkart truly exceeded my expectations with their exceptional selection and dedication to quality. It’s a moment I’ll treasure forever!" - Priya S.
+            </p>
+          </div>
+          <div className="bkcard">
+            <FaStore className="bkicon" />
+            <h4 className="bksection-heading">Success Stories</h4>
+            <p className="bksection-description">
+            "The craftsmanship and attention to detail at Sadashri Jewelkart are unmatched. I couldn’t have asked for a better experience." - Rahul K.
+
+            </p>
+          </div>
+          <div className="bkcard">
+            <FaStore className="bkicon" />
+            <h4 className="bksection-heading">Success Stories</h4>
+            <p className="bksection-description">
+            Sadashri Jewelkart truly exceeded my expectations with their exceptional selection and dedication to quality. It’s a moment I’ll treasure forever!" - Priya S.
+            </p>
+          </div>
+          <div className="bkcard">
+            <FaStore className="bkicon" />
+            <h4 className="bksection-heading">Success Stories</h4>
+            <p className="bksection-description">
+            "Sadashri Jewelkart turned my dream design into reality. I’m incredibly happy with the result!" - Anjali M.
+
+            </p>
+          </div>
+          <div className="bkcard">
+            <FaStore className="bkicon" />
+            <h4 className="bksection-heading">Success Stories</h4>
+            <p className="bksection-description">
+            "I’ve never seen such a beautiful collection of jewelry. I’ll recommend Sadashri Jewelkart to everyone I know!" - Sneha R.
+            </p>
+          </div>
+
+        </div>
+
+        <div className="bkimage-box">
+          <img
+            src={busi}
+            alt="Decorative"
+            className="bkimage"
+          />
+        </div>
+
+      </div>
+
+
 
 
       {/* <section className="storebro-experience-section">

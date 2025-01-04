@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import 'animate.css'; // Import Animate.css styles
 import './Hero.css'; // Import custom styles
-import banner1 from '../Hero/Images/CraftingTimelessConnections.png';
+import banner1 from '../Hero/Images/Crafting Timeless Connectionsnew.png';
 import banner2 from '../Hero/Images/Rooted in Tradition, Inspired by Innovation.png';
 import banner3 from '../Hero/Images/ACommitmenttoSustainabilityandExcellencenew.png';
 import banner4 from '../Hero/Images/EmpoweringDreams,BuildingLegacies.png';

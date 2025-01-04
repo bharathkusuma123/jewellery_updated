@@ -141,7 +141,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import './Navbar.css';
-import mainlogo from './logo/sadashri parent logo123.jpg';
+import mainlogo from './logo/parent_weblink_2-removebg-preview.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
