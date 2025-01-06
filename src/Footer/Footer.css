@@ -86,7 +86,7 @@
       .footer-container {
         width: 80%;
         margin: auto;
-        /* margin-top: -45px; */
+        margin-top: -26px;
         margin-bottom: -30px;
       }
       
@@ -233,6 +233,12 @@
           width: 25px;
           height: 25px;
         }
+        .footer-container {
+          width: 80%;
+          margin: auto;
+          margin-top: -81px;
+          margin-bottom: -30px;
+      }
       }
       
       @media (max-width: 768px) {
@@ -320,6 +326,12 @@
             border-top: 2px solid #333;
             width: 94%;
         }
+        .footer-container {
+          width: 80%;
+          margin: auto;
+          margin-top: -100px;
+          margin-bottom: -30px;
+      }
       
     }
     
