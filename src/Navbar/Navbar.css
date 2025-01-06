@@ -18,8 +18,8 @@
     flex-shrink: 0;
 }
 .navbar-logo-img {
-  height: 100px;
-  width: 170px;
+  height: 156px;
+  width: 263px;
   margin-top: 11px;
 }
 .navbar-logo {
@@ -168,8 +168,8 @@
     }
   
     .navbar-logo-img {
-      height: 115px;
-      width: 171px;
+      height: 143px;
+        width: 250px;
   
   }
   
@@ -264,7 +264,7 @@
     .navbar-logo-img {
         height: 112px;
         margin-left: 15px;
-        width: 158px;
+        width: 190px;
     
     }
   

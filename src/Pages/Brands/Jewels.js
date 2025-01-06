@@ -64,7 +64,7 @@ function Jewels() {
   }, [content.length]);
 
   return (
-    <div style={{ paddingTop: "60px" }}>
+    <div className='mainmain' style={{ paddingTop: "60px" }}>
       <div className="image-container">
         <img src={home} alt="Home" className="responsive-image" />
         <div className="sec-1-banner-overlay-jewels">

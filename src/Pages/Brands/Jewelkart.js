@@ -28,7 +28,7 @@ function Jewels() {
 
   ];
   return (
-    <div style={{ paddingTop: "60px" }}>
+    <div className ='mainmain1' style={{ paddingTop: "60px" }}>
 
       <div className="image-container">
         <img src={home1} alt="Home" className="responsive-image" />

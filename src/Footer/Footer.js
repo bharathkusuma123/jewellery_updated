@@ -50,8 +50,8 @@ const Footer = () => {
             <div className="footer-section">
               <p style={{ color: 'black', fontSize: '22px' }} className="footer-heading">Contact Details</p>
               <p className="footer-info">Building No./Flat No.: NO 1323/1324</p>
-              <p className="footer-info">Road/Street: 16th B Cross Housing Board Colony EWS 3rd Phase</p>
-              <p className="footer-info">Phone No: 9964644424</p>
+              <p className="footer-info">Road/Street: 16th B Cross Housing Board </p>
+              {/* <p className="footer-info">Phone No: 9964644424</p> */}
               <p className="footer-info">Locality: Yelahanka New Town</p>
               <p className="footer-info">City: Bengaluru</p>
               <p className="footer-info">State: Karnataka, PIN Code: 560064</p>

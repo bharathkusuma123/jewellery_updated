@@ -62,8 +62,8 @@
     /* Responsive Design */
     
     .footer-logo img{
-      width: 229px;
-      height: 131px;
+      height: 156px;
+  width: 263px;
     }
     
     .footer1-logo{
@@ -239,6 +239,11 @@
           margin-top: -81px;
           margin-bottom: -30px;
       }
+
+      .footer-logo img {
+        height: 119px;
+        width: 220px;
+    }
       }
       
       @media (max-width: 768px) {
