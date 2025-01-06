@@ -31,26 +31,26 @@ function Jewels() {
     // {
     //   heading: "Customer Testimonials",
     //   paragraph:        "Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care."
-      
+
     // },
     {
       heading: "Customer Testimonials",
-      paragraph:        "Sadashri Jewels made my engagement unforgettable with their exquisite ring and stunning craftsmanship. The service was exceptional, and every detail exceeded my expectations!"
-      
+      paragraph: "Sadashri Jewels made my engagement unforgettable with their exquisite ring and stunning craftsmanship. The service was exceptional, and every detail exceeded my expectations!"
+
     },
     {
       heading: "Exceptional Craftsmanship",
-      paragraph:        "I purchased a beautiful necklace from Sadashri Jewels, and I couldn’t be happier. The attention to detail is impeccable, and I receive compliments on it every time I wear it!",
-      
+      paragraph: "I purchased a beautiful necklace from Sadashri Jewels, and I couldn’t be happier. The attention to detail is impeccable, and I receive compliments on it every time I wear it!",
+
     },
     {
       heading: "A Wonderful Experience",
-      paragraph:         "From the moment I entered the store, I felt valued and appreciated. The team guided me through every step to select the perfect earrings. Highly recommend!",
+      paragraph: "From the moment I entered the store, I felt valued and appreciated. The team guided me through every step to select the perfect earrings. Highly recommend!",
 
     },
     {
       heading: "Lifetime Memories",
-      paragraph:        "I gifted a diamond ring to my wife, and the joy it brought her was indescribable. Thank you, Sadashri Jewels, for creating such memorable pieces.",
+      paragraph: "I gifted a diamond ring to my wife, and the joy it brought her was indescribable. Thank you, Sadashri Jewels, for creating such memorable pieces.",
     },
   ];
 
@@ -193,22 +193,22 @@ function Jewels() {
         </div>
       </section> */}
       <div className="carousel-layout">
-      <div className="left-box">
-        <div className="slide">
-        <FaStore className="bicon" />
+        <div className="left-box">
+          <div className="slide zoom-animation">
+            <FaStore className="bicon" />
 
-          <h2>{content[currentSlide].heading}</h2>
-          <p>{content[currentSlide].paragraph}</p>
+            <h2>{content[currentSlide].heading}</h2>
+            <p>{content[currentSlide].paragraph}</p>
+          </div>
+        </div>
+        <div className="right-box">
+          <img
+            src={custimg}
+            alt="Sample"
+            className="image"
+          />
         </div>
       </div>
-      <div className="right-box">
-        <img
-          src={custimg}
-          alt="Sample"
-          className="image"
-        />
-      </div>
-    </div>
 
     </div>
   )

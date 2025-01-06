@@ -168,6 +168,31 @@
       
 
 
+
+      /* Zoom Animation */
+.zoom-animation {
+  animation: zoomInOut 5s infinite;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
       @media only screen and (max-width: 1024px) and (min-width: 768px) {
         .category-list {
           grid-template-columns: repeat(2, 1fr);
