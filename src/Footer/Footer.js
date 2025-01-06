@@ -3,6 +3,8 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 import sdlogo from '../../src/Navbar/logo/parent_weblink_2-removebg-preview.png'
 import footerlogo from '../Footer/Images/png-1.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the specific icon
 
 
 const Footer = () => {
@@ -15,8 +17,8 @@ const Footer = () => {
             <img
               src={sdlogo}
               alt="Sadashri Logo"
-              // width="180"
-              // height="150"
+            // width="180"
+            // height="150"
             />
           </div>
           {/* <div className="social-container">
@@ -72,9 +74,22 @@ const Footer = () => {
         className="footer1-logo" 
       /></a>.
           </p> */}
-          <p className="last-footer-design">
+          {/* <p className="last-footer-design">
           Designed by <a href="https://www.iiiqbets.com/" target="_blank" rel="noopener noreferrer">iiiQBets</a>.
-          </p>
+          </p> */}
+          <div className="footer">
+            <span className="float-left pr-2">
+              © {new Date().getFullYear()} All rights reserved 
+            </span>
+            <span className="float-left p-3">
+              {/* <i className="fas fa-heart" aria-hidden="true"></i>  */}
+              <FontAwesomeIcon  style={{color:'red', paddingLeft:'5px', paddingRight:'5px'}} icon={faHeart} aria-hidden="true" />
+              by {" "}
+              <a href="https://iiiqbets.com" target="_blank" rel="noopener noreferrer">
+                iiiQBets
+              </a>
+            </span>
+          </div>
         </section>
 
       </div>

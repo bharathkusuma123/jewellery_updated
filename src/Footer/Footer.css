@@ -62,8 +62,8 @@
     /* Responsive Design */
     
     .footer-logo img{
-      width: 170px;
-      height: 100px;
+      width: 229px;
+      height: 131px;
     }
     
     .footer1-logo{
@@ -198,7 +198,7 @@
         font-size: 14px; /* Adjust font size */
         color:black;
         font-weight: 500;        flex: 1 1 auto; /* Ensures both items grow/shrink equally */
-        margin-left: -95px;
+        margin-left: -420px;
       }
       
       /* Media Queries for Responsiveness */
