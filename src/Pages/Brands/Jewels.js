@@ -28,9 +28,14 @@ function Jewels() {
 
 
   const content = [
+    // {
+    //   heading: "Customer Testimonials",
+    //   paragraph:        "Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care."
+      
+    // },
     {
       heading: "Customer Testimonials",
-      paragraph:        "Sadashri Jewels made my engagement truly unforgettable by providing me with the most exquisite engagement ring! The craftsmanship and attention to detail were absolutely stunning, and the entire experience exceeded my expectations. The service was nothing short of incredible—every question I had was answered with care."
+      paragraph:        "Sadashri Jewels made my engagement unforgettable with their exquisite ring and stunning craftsmanship. The service was exceptional, and every detail exceeded my expectations!"
       
     },
     {
@@ -54,7 +59,7 @@ function Jewels() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % content.length);
-    }, 3000); // Change slide every 3 seconds
+    }, 5000); // Change slide every 5 seconds
     return () => clearInterval(interval);
   }, [content.length]);
 

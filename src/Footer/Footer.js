@@ -65,12 +65,15 @@ const Footer = () => {
           <p className="last-footer-copyright">
             Copyright © 2024 SadāShri Ventures Private Limited. All rights reserved.
           </p>
-          <p className="last-footer-design">
+          {/* <p className="last-footer-design">
           Designed by <a href="https://www.iiiqbets.com/" target="_blank" rel="noopener noreferrer"> <img 
         src={footerlogo} 
         alt="iiiQBets Logo" 
         className="footer1-logo" 
       /></a>.
+          </p> */}
+          <p className="last-footer-design">
+          Designed by <a href="https://www.iiiqbets.com/" target="_blank" rel="noopener noreferrer">iiiQBets</a>.
           </p>
         </section>
 
