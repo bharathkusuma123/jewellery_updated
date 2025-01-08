@@ -364,6 +364,8 @@
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern touch */
   }
+  
+  .bexperience-section
   .bcontent-box {
     flex: 1 1;
     height: 320px;
@@ -372,7 +374,29 @@
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-    width: 100%;
+    width: 150%;
+}
+
+.bcontent-box
+.bsection-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #a36e29;
+  margin-top: 15px;
+  text-align: center; /* Center-align heading */
+}
+
+.carousel-layout 
+.left-box .slide h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #a36e29;
+}
+.carousel-layout 
+.left-box .slide p {
+  font-size: 17px;
+  color: #555;
+  text-align: justify;
 }
 
 
@@ -381,7 +405,7 @@
   display: flex
 ;
   width: 100%;
-  height: 880px;
+  height: 830px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -393,7 +417,7 @@
 .left-box {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-  height: 486px;
+  height: 410px;
   max-width: 100%;
   width: 90%;
   margin-top: 50px;
@@ -404,10 +428,10 @@
 
 .carousel-layout
 .right-box .image {
-  max-width: 221%;
+  max-width: 254%;
   width: 400px;
   height: 300px;
-  margin-left: 196px;
+  margin-left: 210px;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on image */
   transition: transform 0.3s ease-in-out;
@@ -501,6 +525,22 @@
   }
 
 
+
+  .bimage-box {
+    flex: 1 1;
+    display: flex
+;
+    height: 350px;
+    width: 180%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
       }
       
 
@@ -558,8 +598,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  padding: 50px;
+  gap: 50px;
+  /* padding: 50px; */
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);  */
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern touch */
@@ -623,6 +667,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on image */
+
   overflow: hidden; /* Ensure no part of the image overflows the container */
   transition: transform 0.3s ease; /* Smooth hover effect for the image container */
 }
@@ -797,14 +843,23 @@ align-self: center;
   box-sizing: border-box;
 }
 
+.right-box {
+  width: 46%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .left-box {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   height: 350px;
   max-width: 50%;
-  width: 50%;
+  width: 40%;
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 128px;
   border-radius: 12px;
 
 
@@ -876,7 +931,7 @@ align-self: center;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 16px;
-  width: 600px; /* Fixed width for each card */
+  width: 560px; /* Fixed width for each card */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -992,7 +1047,8 @@ align-self: center;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%;
+  width: 94%;
+  margin: 0 auto;
   gap: 10px;
   height: 55vh;
   padding-top: 20px;
@@ -1007,6 +1063,7 @@ align-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
   padding: 16px;
   box-sizing: border-box;
 }

@@ -18,7 +18,7 @@ function Benefits() {
           ventures also means the success of the society that supports us.
         </p>
         <div className="visual-placeholder">
-          <p>[Visual: Community Engagement Diagram showing the flow of benefits between the company and its stakeholders.]</p>
+          {/* <p>[Visual: Community Engagement Diagram showing the flow of benefits between the company and its stakeholders.]</p> */}
         </div>
       </div>
 

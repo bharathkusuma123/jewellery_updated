@@ -8,7 +8,7 @@
 /* Main container for padding on both sides */
 .introduction-container {
     padding: 0 40px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 /* Main section layout */
@@ -19,6 +19,7 @@
     max-width: 1270px;
     margin: 0 auto;
     margin-left: 34px;
+    margin-bottom: 20px;
 }
 
 /* Left section with large and small images */
@@ -57,7 +58,7 @@
 
 /* Right section with content */
 .introduction-content {
-    margin-top: -40px;
+    margin-top: -4px;
     width: 50%;
     padding-left: 20px;
     text-align: center; /* Center-aligns text */
@@ -103,12 +104,14 @@
     /* gap: 10px; */
     width: 48%; /* Take almost half the width to maintain side-by-side */
     box-sizing: border-box;
+    margin-top: -30px;
 }
 
 .introduction-feature-item h3 {
     font-size: 25px;
     font-weight: 500;
     color: #a36e29;
+    margin-bottom: -10px;
 }
 
 .introduction-feature-item p {
@@ -310,7 +313,7 @@
 
 .introduction-content p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
     color: #555;
     /* margin-bottom: 20px; */
     line-height: 1.6;
@@ -324,7 +327,7 @@
     font-size: 25px;
     font-weight: 500;
     color: #a36e29;
-    margin-top: -24px;
+    margin-top: 11px;
     margin-bottom: -12px;
 }
 

@@ -45,18 +45,19 @@ const ContactForm = () => {
         <div className="contact-card">
           <FaPhoneAlt className="contact-icon" />
           <h3>Media & Press Inquiries</h3>
-          <p className='access'>
-            Access press releases, media kits, or schedule interviews with our media relations team.
-          </p>
+          <ul className='access'>
+           <li> Access press releases, media kits, or schedule interviews with our media relations team.</li>
+          </ul>
         </div>
+          
 
         {/* FAQ */}
         <div className="contact-card">
           <FaQuestionCircle className="contact-icon" />
           <h3>FAQ</h3>
-          <p className='find_ans'>
-            Find answers to common questions from clients, investors, and job seekers in our FAQ section.
-          </p>
+          <ul className='find_ans'>
+          <li>  Find answers to common questions from clients, investors, and job seekers in our FAQ section.</li>
+          </ul>
         </div>
 
         {/* General Contact Information */}
@@ -64,10 +65,10 @@ const ContactForm = () => {
           <FaEnvelope className="contact-icon" />
           <h3>General Contact Information</h3>
 
-          <p className='l_p'>
-            Reach us via email, phone, or visit us at Sadashri Ventures' main office.
-            We’re here to assist you with inquiries.
-          </p>
+          <ul className='l_p'>
+          <li>  Reach us via email, phone, or visit us at Sadashri Ventures' main office.
+            We’re here to assist you with inquiries.</li>
+          </ul>
         </div>
       </div>
       <div className="contact-container">
