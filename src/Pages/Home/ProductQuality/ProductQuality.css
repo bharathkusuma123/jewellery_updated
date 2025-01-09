@@ -63,6 +63,13 @@
     margin-top: -10px;
 }
 
+.product-quality-card 
+  .Read-more {
+      margin-left: 81%;
+      color: #a36e29;
+  }
+
+
 
   @media (min-width: 992px) {
     .product-quality-heading {
@@ -119,7 +126,7 @@
   }
   
   .Read-more {
-    margin-left: 66%;
+    margin-left: 85%;
     color: #a36e29;
 
 }
@@ -171,8 +178,9 @@
     /* height: 160px; */
 
   }
+  .product-quality-card 
   .Read-more {
-    margin-left: 60%;
+    margin-left: 70%;
     color: #a36e29;
 }
 
@@ -184,7 +192,7 @@
   border-radius: 8px;
   /* background-color: #222; */
   text-align: left;
-  height: 225px;
+  height: 190px;
 }
 
 
@@ -194,6 +202,13 @@
   margin: 0 auto;
   margin-top: -12px;
   text-align: center;
+}
+
+.product-quality-content {
+  display: flex
+;
+  flex-direction: column;
+  gap: 20px;
 }
 
   }

@@ -119,6 +119,23 @@
   justify-content: center;
 }
 
+.about-us
+.legacy-content .legacy-introduction {
+  width: 238%;
+  margin-left: -207px;
+font-size: 18px;
+}
+.about-us
+.legacy-section .legacy-infographic {
+  width: 100%;
+  max-width: 300%;
+
+}
+
+.legacy-section .legacy-infographic .infographic-image{
+  width: 100%;
+}
+
 }
 
 
@@ -246,9 +263,10 @@
     text-align: center;
   }
 
-  .legacy-content, .legacy-infographic {
+ /* .legacy-infographic {
     max-width: 100%;
-  }
+  } */
+ 
 
   .legacy-title {
     font-size: 1.8rem;
@@ -283,12 +301,20 @@
   }
 
   .legacy-introduction {
+    width: 115%;
     font-size: 0.9rem;
-  }
+    margin-left: -23px;
+    }
 
   .infographic-image {
     height: 220px;
     margin-top: 0px;
+  }
+
+
+  .legacy-section .legacy-infographic{
+    max-width: 101%;
+    margin-left: -6px;
   }
 }
 
@@ -357,6 +383,7 @@
       
           .sec-2-section-subtitle {
             font-size: 1.2rem;
+            padding: 0 8px;
           }
       
           .sec-2-wisdom-quote {
@@ -453,7 +480,7 @@
 
   .sec-2-wisdom-points {
     font-size: 0.9rem; /* Slightly smaller text */
-    padding: 0 1rem; /* Adjust padding */
+    padding: 0 22px; /* Adjust padding */
   }
 
   .image-section {
@@ -463,7 +490,7 @@
   .image-section img {
     margin: 0 auto;
     height: 200px;
-    width: 330px;
+    width: 350px;
   }
   .legacy-content {
     max-width: 100%;
@@ -577,11 +604,12 @@
 /* Mobile View */
 @media (max-width: 480px) {
   .sec-3-generational-wisdom .sec-3-section-title {
-    font-size: 1.8rem;
+    font-size: 24px;
   }
 
   .sec-3-generational-wisdom .sec-3-section-description {
     font-size: 1rem;
+    padding: 0;
   }
 
   .sec-3-generational-wisdom .sec-3-visual {

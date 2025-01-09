@@ -137,7 +137,7 @@
 /* Mobile View (Extra Small Devices) */
 @media (max-width: 767px) {
     .LatestUpdate-card {
-        max-width: 88%;
+        max-width: 83%;
         padding: 15px;
         /* margin: 10px auto; */
         margin-top: -10px;
@@ -148,7 +148,7 @@
     }
 
     .LatestUpdate-card p {
-        font-size: 14px;
+        font-size: 16px;
         width: 92%;
         margin-left: -19px;
     }

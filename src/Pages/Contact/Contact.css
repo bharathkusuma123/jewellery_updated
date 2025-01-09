@@ -396,6 +396,18 @@ h1 {
 .access{
   margin-left: -21px;
 }
+
+
+.input-field textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  resize: none;
+  margin-top: 10px;
+}
 }
 
 .map-section {
@@ -439,6 +451,8 @@ h1 {
 
   .contact-card h3 {
     font-size: 16px;
+    margin-left: 40px;
+     margin-top: -35px;
   }
 
   .contact-card p,
@@ -484,6 +498,8 @@ h1 {
 
   .contact-card h3 {
     font-size: 24px;
+    margin-left: 40px;
+    margin-top: -44px;
   }
 
   .contact-card p,
@@ -612,6 +628,12 @@ h1 {
   width: 35%;
 }
 
+.submit-but:hover {
+  color: white;
+  background-color: rgb(113, 86, 86);
+  border: 1px solid rgb(13, 13, 13);
+}
+
 
 form{
     flex-direction: column;
@@ -655,6 +677,13 @@ form{
     width: 45%;
     margin-top: 0px;
     margin-left: 78px;  }
+
+
+    .submit-but:hover {
+      color: white;
+      background-color: rgb(113, 86, 86);
+      border: 1px solid rgb(13, 13, 13);
+    }
 
   .map-section {
     width: 95%;

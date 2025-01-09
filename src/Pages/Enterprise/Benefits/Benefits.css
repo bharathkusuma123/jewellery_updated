@@ -175,6 +175,7 @@ body {
   }
   .portfolio-cards .portfolio-card{
     width: 666px;
+    margin-left: 10px;
   }
   .stats-cards{
     width: 100%;

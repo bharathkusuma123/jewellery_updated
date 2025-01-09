@@ -115,14 +115,14 @@
   
     .introduction-text {
       font-size: 18px; /* Adjust text size for tablet */
-      margin-left: -20px;
+      margin-left: -10px;
       width: 106%;
     }
     .introduction-image {
       width: 115%;
       border-radius: 10px;
       height: 360px;
-      margin-left: -100px;
+      margin-left: -64px;
   }
   }
   

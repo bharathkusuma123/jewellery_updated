@@ -115,6 +115,7 @@
       
         .enterprise-header p {
           font-size: 1rem;
+          margin-top: -10px;
         }
       
         .enterprise-journey h2 {
@@ -123,11 +124,12 @@
       
         .enterprise-journey p {
           font-size: 1rem;
+          margin-top: -20px;
         }
       
         .enterprise-principles h3 {
           font-size: 25px;
-          margin-top: 5px;        }
+          margin-top: 20px;        }
       
         .enterprise-principles ul {
           font-size: 1rem;
@@ -141,7 +143,7 @@
         }
         .enterprise-journey h2 {
           font-size: 25px;
-          margin-top: -50px;
+          margin-top: -30px;
 
         }
         .enterprise-container {
