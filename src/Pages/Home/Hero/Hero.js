@@ -17,16 +17,18 @@ const Hero = () => {
 
   const slides = [
     {
-      img: banner1,
-      mainText: 'Crafting Timeless Connections',
-      subText:
-        'A legacy of fine craftsmanship and unparalleled dedication to quality. Discover our passion for creating lasting value across all our endeavors.',
-    },
-    {
       img: banner2,
       mainText: 'Rooted in Tradition, Inspired by Innovation',
       subText:
-        'Discover the family behind the driving force, a history of entrepreneurship, and values that continue to guide us.',
+      'Discover the family behind the driving force, a history of entrepreneurship, and values that continue to guide us.',
+  },
+   
+    {
+      img: banner1,
+      mainText: 'Crafting Timeless Connections',
+
+        subText:
+        'A legacy of fine craftsmanship and unparalleled dedication to quality. Discover our passion for creating lasting value across all our endeavors.',
     },
     {
       img: banner3,
