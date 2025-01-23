@@ -1,19 +1,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-function websiteName() {
+const WebsiteName = () => {
   return (
     <>
       <Helmet>
-        <title>Sadashri</title>
-        <meta name="description" content="This is a description of Sadashri." />
-        <meta name="keywords" content="keyword1, keyword2, keyword3" />
-        {/* Add other meta tags as needed */}
+        <title>Sadashri Jewels | Exquisite Jewelry & Engagement Rings</title>
+        <meta name="description" content="Sadashri Jewels offers exquisite engagement rings and fine jewelry crafted with elegance and precision." />
+        <meta name="keywords" content="jewelry, engagement rings, Sadashri Jewels" />
+        {/* Add other meta tags if needed */}
       </Helmet>
-
-      {/* Rest of your component's JSX */}
+      {/* Add your JSX content here */}
     </>
   );
-}
+};
 
-export default websiteName;
+export default WebsiteName;

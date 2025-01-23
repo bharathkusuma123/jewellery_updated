@@ -14,7 +14,7 @@ import Brands from "./Pages/Brands/Brands";
 import Enterprise from "./Pages/Enterprise/Enterprise";
 import Jewels from "./Pages/Brands/Jewels";
 import Jewelkart from "./Pages/Brands/Jewelkart";
-import WebsiteName from "./Components/WebsiteName";
+import WebsiteName from "../src/websiteName";
 
 // Firebase imports
 import { initializeApp } from "firebase/app";
