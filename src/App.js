@@ -14,6 +14,7 @@ import Brands from "./Pages/Brands/Brands";
 import Enterprise from "./Pages/Enterprise/Enterprise";
 import Jewels from "./Pages/Brands/Jewels";
 import Jewelkart from "./Pages/Brands/Jewelkart";
+import WebsiteName from "./Components/WebsiteName";
 
 // Firebase imports
 import { initializeApp } from "firebase/app";
@@ -37,6 +38,7 @@ function App() {
     <Router>
       {/* <Header /> */}
       <Navbar />
+      <WebsiteName />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/schemes" exact element={<Schemes />} />

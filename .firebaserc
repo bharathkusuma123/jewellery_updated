@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "sadashri-static"
-  }
+    "default": "sadashri-static",
+    "sadashri": "sadashri-static"
+  },
+  "targets": {},
+  "etags": {}
 }
