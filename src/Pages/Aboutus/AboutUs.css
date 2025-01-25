@@ -69,7 +69,7 @@
 }
 .sec-4-pillars
 .sec-4-pillar h4 {
-  font-size: 2rem;
+  font-size: 25px;
   color: #a36e29;
   margin-bottom: 0.8rem;
   font-weight: 700;
@@ -84,7 +84,7 @@
 
 .sec-3-container
  .sec-3-section-title {
-  font-size: 1.8rem;
+  font-size: 32px;
   color: #a36e29;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -152,7 +152,7 @@ font-size: 18px;
   }
 
   .sec-1-banner-heading {
-    font-size: 20px; /* Adjust font size */
+    font-size: 30px; /* Adjust font size */
   }
   .about-us
   .ab_responsive-image {
@@ -223,7 +223,7 @@ font-size: 18px;
 }
 
 .legacy-title {
-  font-size: 2.5rem;
+  font-size: 36px;
   color: #a36e29;;
   margin-bottom: 1rem;
   text-align: center;
@@ -269,7 +269,7 @@ font-size: 18px;
  
 
   .legacy-title {
-    font-size: 1.8rem;
+    font-size: 32px;
     font-weight: 600;
 
   }
@@ -297,12 +297,12 @@ font-size: 18px;
   }
 
   .legacy-title {
-    font-size: 1.5rem;
+    font-size: 30px;
   }
 
   .legacy-introduction {
     width: 115%;
-    font-size: 0.9rem;
+    font-size: 16px;
     margin-left: -23px;
     }
 
@@ -329,7 +329,7 @@ font-size: 18px;
       }
       
         .sec-2-section-title {
-          font-size: 2.5rem;
+          font-size: 36px;
             color: #a36e29;
           text-align: center;
           margin-top: 10px;
@@ -338,7 +338,7 @@ font-size: 18px;
         }
       
         .sec-2-section-subtitle {
-          font-size: 1.4rem;
+          font-size: 25px;
           color: #444;
           text-align: center;
           margin-top: -30px;
@@ -358,7 +358,7 @@ font-size: 18px;
         @media (max-width: 768px) {
       
           .sec-2-section-title {
-            font-size: 1.8rem;
+            font-size: 32px;
             font-weight: 600;
 
           }
@@ -368,7 +368,7 @@ font-size: 18px;
           }
       
           .sec-2-wisdom-quote {
-            font-size: 1.1rem;
+            font-size: 25px;
             padding: 0 0.5rem;
           }
       
@@ -378,7 +378,7 @@ font-size: 18px;
         @media (max-width: 480px){
       
           .sec-2-section-title {
-            font-size: 1.6rem;
+            font-size: 30px;
           }
       
           .sec-2-section-subtitle {
@@ -387,7 +387,7 @@ font-size: 18px;
           }
       
           .sec-2-wisdom-quote {
-            font-size: 1rem;
+            font-size: 20px;
           }
       
           
@@ -479,7 +479,7 @@ font-size: 18px;
   }
 
   .sec-2-wisdom-points {
-    font-size: 0.9rem; /* Slightly smaller text */
+    font-size: 16px; /* Slightly smaller text */
     padding: 0 22px; /* Adjust padding */
   }
 
@@ -513,7 +513,6 @@ font-size: 18px;
 .sec-3-generational-wisdom {
   background: linear-gradient(145deg, #fffaf0, #fdf6e4); /* Subtle gold theme */
   padding: 1rem 1.5rem;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sec-3-generational-wisdom .sec-3-container {
@@ -523,7 +522,7 @@ font-size: 18px;
 }
 
 .sec-3-section-title {
-  font-size: 2.5rem;
+  font-size: 36px;
   color:#a36e29; 
   margin-bottom: 1rem;
   font-weight: 500;
@@ -572,7 +571,7 @@ font-size: 18px;
 }
 
 .sec-3-generational-wisdom .sec-3-principle h3 {
-  font-size: 1.2rem;
+  font-size: 20px;
   color: #333;
   font-weight: 600;
   text-transform: uppercase;
@@ -604,7 +603,7 @@ font-size: 18px;
 /* Mobile View */
 @media (max-width: 480px) {
   .sec-3-generational-wisdom .sec-3-section-title {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .sec-3-generational-wisdom .sec-3-section-description {
@@ -626,7 +625,6 @@ font-size: 18px;
   /* background: linear-gradient(145deg, #f9f3e7, #fffaf0);  */
   /* background-image: url('./Images/visionimg.jpg'); */
   padding: 15px 1.5rem;
-  font-family: 'Poppins', sans-serif;
 }
 
 .sec-4-vision-section .sec-4-container {
@@ -636,7 +634,7 @@ font-size: 18px;
 }
 
 .sec-4-vision-title {
-  font-size: 2.4rem;
+  font-size: 36px;
   color: #a36e29
   ; /* Luxurious gold */
   font-weight: 500;
@@ -679,7 +677,7 @@ font-size: 18px;
 }
 
 .sec-4-pillars-title {
-  font-size: 2.4rem;
+  font-size: 36px;
   color: #a36e29;
   font-weight: 500;
   margin-bottom: 1.5rem;
@@ -711,14 +709,14 @@ font-size: 18px;
 }
 
 .sec-4-pillar h4 {
-  font-size: 23px;
+  font-size: 25px;
   color: #a36e29;
   margin-bottom: 0.8rem;
   font-weight: 500;
 }
 
 .sec-4-pillar p {
-  font-size: 17px;
+  font-size: 18px;
   color: #555;
   line-height: 1.6;
   text-align: justify;
@@ -749,7 +747,7 @@ font-size: 18px;
 /* Mobile View */
 @media (max-width: 480px) {
   .sec-4-vision-title {
-    font-size: 1.8rem;
+    font-size: 30px;
   }
 
   .sec-4-vision-subtitle {
@@ -757,7 +755,7 @@ font-size: 18px;
   }
 
   .sec-4-pillars-title {
-    font-size: 1.6rem;
+    font-size: 30px;
   }
 
   .sec-4-vision-content {
@@ -782,6 +780,14 @@ font-size: 18px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: -10px;
+}
+
+
+.sec-4-pillar p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
 }
 }
 

@@ -80,7 +80,7 @@
     }
   
     .introduction-title {
-      font-size: 34px; /* Slightly smaller title for mobile */
+      font-size: 30px; /* Slightly smaller title for mobile */
     }
   
     .introduction-text {
@@ -140,7 +140,7 @@
     }
   
     .introduction-title {
-      font-size: 2.6rem;
+      font-size: 36px;
       font-weight: 500;
       color: #a36e29;
       margin-bottom: 1rem;

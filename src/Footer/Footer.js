@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import sdlogo from '../../src/Navbar/logo/parent_weblink_2-removebg-preview.png'
+import sdlogo from '../../src/Navbar/logo/parent weblink 3.png'
 import footerlogo from '../Footer/Images/png-1.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the specific icon

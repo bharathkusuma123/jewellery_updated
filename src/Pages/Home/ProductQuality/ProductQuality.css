@@ -73,7 +73,7 @@
 
   @media (min-width: 992px) {
     .product-quality-heading {
-      font-size: 34px;
+      font-size: 36px;
     font-weight: 500;
     /* color: white; */
     color:#a36e29 ;
@@ -152,7 +152,7 @@
     }
   
     .product-quality-para {
-      font-size: 0.95em;
+      font-size: 18px;
       text-align: justify;
     }
     
@@ -164,11 +164,24 @@
   
 
   @media (max-width: 767px){
+    .product-quality-card 
     .product-quality-heading-card {
       text-align: center;
-      font-size: 25px;
+      font-size: 22px;
       color: #a36e29;
+
+      
   }
+
+
+  
+  .product-quality-para {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+ 
   .product-quality-card.left {
     align-self: flex-start;
     /* height: 200px; */
@@ -210,6 +223,13 @@
   flex-direction: column;
   gap: 20px;
 }
+
+
+
+  .product-quality-heading {
+      font-size: 30px;
+      color: #a36e29;
+  }
 
   }
 

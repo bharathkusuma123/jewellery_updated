@@ -12,7 +12,6 @@
 .enterprise-section {
         background-color: #fff;
         padding: 0rem 1.5rem;
-        font-family: 'Poppins', sans-serif;
         color: #333;
         margin-left: -20px;
       }
@@ -25,7 +24,7 @@
       
       /* Header Styling */
       .enterprise-header h1 {
-        font-size: 2.6rem;
+        font-size: 36px;
         font-weight: 500;
         color: #a36e29;
         margin-bottom: 1rem;
@@ -43,7 +42,7 @@
       
       /* Journey Section Styling */
       .enterprise-journey h2 {
-        font-size: 2.2rem;
+        font-size: 36px;
         color: #a36e29;
         text-align: center;
         margin-top: 3rem;
@@ -61,7 +60,7 @@
       
       /* Principles Section Styling */
       .enterprise-principles h3 {
-        font-size: 2rem;
+        font-size: 36px;
         color: #a36e29;
         margin-top: 3rem;
         text-align: center;
@@ -91,6 +90,7 @@
       
       .enterprise-principles li strong {
         color: #a36e29;
+        font-size: 25px;
       }
       
       /* Hover Effects */
@@ -108,7 +108,6 @@
         .enterprise-section {
           background-color: #fff;
           padding: 0rem 0rem;
-          font-family: 'Poppins', sans-serif;
           color: #333;
           margin-left: -20px;
         }
@@ -128,7 +127,7 @@
         }
       
         .enterprise-principles h3 {
-          font-size: 25px;
+          font-size: 30px;
           margin-top: 20px;        }
       
         .enterprise-principles ul {
@@ -138,11 +137,11 @@
 
       @media (max-width: 767px) {
         .enterprise-header h1 {
-          font-size: 25px;
+          font-size: 30px;
           margin-top: 0px;
         }
         .enterprise-journey h2 {
-          font-size: 25px;
+          font-size:30px;
           margin-top: -30px;
 
         }
@@ -160,12 +159,12 @@
       @media  (min-width: 768px) and (max-width: 1024px)  {
         
         .enterprise-header h1 {
-          font-size: 2.4rem;
+          font-size: 32px;
           font-weight: 600;
         }
       
         .enterprise-header p {
-          font-size: 1.1rem;
+          font-size: 18px;
         }
       
         .enterprise-journey h2 {
@@ -174,16 +173,16 @@
         }
       
         .enterprise-journey p {
-          font-size: 1.1rem;
+          font-size:18px;
         }
       
         .enterprise-principles h3 {
-          font-size: 2.2rem;
+          font-size: 32px;
           font-weight: 600;
         }
       
         .enterprise-principles ul {
-          font-size: 1.1rem;
+          font-size: 18px;
         }
 
 
@@ -213,7 +212,6 @@
 .company-ethics-section {
         background-color: #ecf0f1; /* Light grey background */
         padding: 4rem 1.5rem;
-        font-family: 'Poppins', sans-serif;
       }
       
       .company-ethics-container {
@@ -382,7 +380,6 @@
 .what-we-do-section {
         background-color: #f9f9f9; /* Light grey background */
         padding: 4rem 2rem;
-        font-family: 'Poppins', sans-serif;
       }
       
       .what-we-do-container {
@@ -492,7 +489,6 @@
 .relationships-section {
         background-color: #fff;
         padding: 4rem 2rem;
-        font-family: 'Poppins', sans-serif;
       }
       
       .relationships-container {
@@ -601,7 +597,6 @@
 .society-future-section {
         background-color: #f9f9f9;
         padding: 4rem 2rem;
-        font-family: 'Poppins', sans-serif;
       }
       
       .society-container {

@@ -56,7 +56,7 @@
       }
 
       .div-icon h2{
-        font-size: 2rem;
+        font-size: 36px;
         color: #a36e29;
         margin-top: 0px;
       }
@@ -146,7 +146,7 @@
       }
       
       .category-card h3 {
-        font-size: 1.2rem;
+        font-size: 25px;
         margin: 15px 0;
         color: #333;
       }
@@ -158,6 +158,8 @@
         font-weight: bold;
         margin-bottom: 15px;
         transition: color 0.3s ease;
+        font-size: 18px;
+
       }
       
       .category-card a:hover {
@@ -201,12 +203,18 @@
         }
       
         .category-card h3 {
-          font-size: 1.1rem;
+          font-size: 25px;
         }
       
         .category-card a {
-          font-size: 0.9rem;
+          font-size: 18px;
         }
+
+        .div-icon h2 {
+          font-size: 32px;
+          color: #a36e29;
+          margin-top: 0px;
+      }
       }
       
 
@@ -307,7 +315,7 @@
         }
       
         .category-card a {
-          font-size: 20px;
+          font-size: 18px;
         }
         .image-container
         .responsive-image  {
@@ -365,6 +373,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern touch */
   }
   
+  
   .bexperience-section
   .bcontent-box {
     flex: 1 1;
@@ -377,24 +386,26 @@
     width: 150%;
 }
 
-.bcontent-box
+
+
+.bcontent-box 
 .bsection-heading {
-  font-size: 24px;
-  font-weight: 600;
-  color: #a36e29;
-  margin-top: 15px;
-  text-align: center; /* Center-align heading */
+    font-size: 30px;
+    font-weight: 600;
+    color: #a36e29;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .carousel-layout 
 .left-box .slide h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 10px;
   color: #a36e29;
 }
 .carousel-layout 
 .left-box .slide p {
-  font-size: 17px;
+  font-size: 16px;
   color: #555;
   text-align: justify;
 }
@@ -493,7 +504,7 @@
 }
 .bkcard
 .bksection-heading {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: -15px;
   color: #a36e29;
@@ -539,6 +550,31 @@
     overflow: hidden;
     transition: transform 0.3s ease;
 }
+
+.bcontent-box
+.bsection-description {
+  font-size: 16px;
+  color: #555;
+  margin-top: 20px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+
+.div-icon h2 {
+    font-size: 30px;
+    color: #a36e29;
+    margin-top: 0px;
+}
+
+.bkcard
+.bksection-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 2.0;
+}
+
 
 
       }
@@ -651,7 +687,7 @@
 
 /* Paragraph styling */
 .bsection-description {
-  font-size: 1.1rem;
+  font-size: 18px;
   color: #555;
   margin-top: 20px;
   line-height: 1.8;
@@ -877,7 +913,7 @@ align-self: center;
 }
 
 .left-box .slide p {
-  font-size: 1.2rem;
+  font-size: 18px;
   color: #555;
   text-align: justify;
 }
@@ -957,7 +993,7 @@ align-self: center;
 
 /* Description styling */
 .bksection-description {
-  font-size: 1.1rem;
+  font-size: 18px;
   color: #666;
   line-height: 2.0;
 }

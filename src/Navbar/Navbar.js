@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import './Navbar.css';
-import mainlogo from './logo/parent_weblink_2-removebg-preview.png';
+import mainlogo from './logo/parent weblink 3.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

@@ -53,7 +53,7 @@
 
 /* Style for main text (title) */
 .hero-main-text {
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -124,7 +124,7 @@
 /* Mobile responsive styles */
 @media screen and (max-width: 767px) {
   .hero-main-text {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: -1rem;
 
   }
